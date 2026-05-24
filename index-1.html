@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="YojanaSaathi — India ki sabhi Sarkari Yojana 2025 ki poori jankari Hinglish mein. PM Awas, Kisan Samman Nidhi, Ayushman Bharat aur 500+ schemes.">
+<meta name="keywords" content="sarkari yojana 2025, pm awas yojana, kisan samman nidhi, ayushman bharat, ujjwala yojana, government schemes india hindi">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="YojanaSaathi — Sarkari Yojana 2025 Ki Poori Jankari">
+<meta property="og:description" content="India ki 500+ government schemes ki latest jankari Hinglish mein. Free, authentic, updated daily.">
+<meta property="og:type" content="website">
+<title>YojanaSaathi — Sarkari Yojana 2025 | Government Schemes India</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!-- Google AdSense — Approve hone ke baad apna code yahan paste karna -->
+<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --saffron:#e8620a;--saffron2:#ff8c00;--green:#1a6b3a;--green2:#2a8a50;
+  --blue:#0047ab;--white:#fff;--bg:#f7f5ef;--bg2:#eceae2;
+  --ink:#1a1a1a;--ink2:#2d2d2d;--muted:#6b6b6b;--border:#ddd8cc;
+  --card:#fff;--shadow:0 2px 12px rgba(0,0,0,.08);--shadow-lg:0 8px 32px rgba(0,0,0,.13);
+}
+html{scroll-behavior:smooth}
+body{font-family:'Hind',sans-serif;background:var(--bg);color:var(--ink);min-height:100vh}
+
+/* TICKER */
+.ticker{background:var(--saffron);color:#fff;padding:7px 0;overflow:hidden}
+.ticker-inner{display:flex;align-items:center}
+.t-label{background:#b30000;color:#fff;padding:4px 16px;font-size:11px;font-weight:700;letter-spacing:.1em;white-space:nowrap;flex-shrink:0;margin-right:12px;font-family:'Baloo 2',cursive}
+.t-scroll{display:flex;animation:scroll 35s linear infinite;white-space:nowrap}
+.t-scroll span{padding:0 36px;font-size:13px;font-weight:500}
+.t-scroll span::after{content:'●';margin-left:36px;opacity:.5;font-size:8px}
+@keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* NAV */
+nav{background:#fff;border-bottom:3px solid var(--saffron);box-shadow:var(--shadow);position:sticky;top:0;z-index:200}
+.nav-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:10px 24px;gap:16px}
+.nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none;cursor:pointer}
+.logo-flag{width:38px;height:38px;border-radius:8px;overflow:hidden;display:flex;flex-direction:column;border:2px solid var(--border);flex-shrink:0}
+.lf1{height:33.33%;background:#ff9933}.lf2{height:33.33%;background:#fff;display:flex;align-items:center;justify-content:center;font-size:9px}.lf3{height:33.33%;background:#138808}
+.logo-name{font-family:'Baloo 2',cursive;font-size:20px;font-weight:800;color:var(--saffron);line-height:1}
+.logo-sub{font-size:10px;color:var(--muted);letter-spacing:.04em}
+.nav-links{display:flex;gap:2px;flex-wrap:wrap}
+.nl{padding:6px 13px;border-radius:8px;font-size:13px;font-weight:600;color:var(--ink2);background:none;border:none;cursor:pointer;transition:all .18s;font-family:'Hind',sans-serif;white-space:nowrap}
+.nl:hover,.nl.on{background:var(--saffron);color:#fff}
+.nl.green-btn{background:var(--green);color:#fff}.nl.green-btn:hover{background:var(--green2)}
+
+/* HERO */
+.hero{background:linear-gradient(150deg,#0d0d2b 0%,#1a1a5c 45%,#0a2e0a 100%);padding:56px 24px 0;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='50' height='50' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='25' cy='25' r='1' fill='%23ffffff' fill-opacity='0.04'/%3E%3C/svg%3E")}
+.hero-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;position:relative;z-index:1}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(232,98,10,.18);border:1px solid rgba(232,98,10,.4);border-radius:100px;padding:5px 16px;margin-bottom:18px;font-size:11px;font-weight:700;color:#ffaa44;letter-spacing:.08em;text-transform:uppercase}
+.hero-eyebrow::before{content:'';width:7px;height:7px;border-radius:50%;background:#ffaa44;animation:blink 2s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+.hero-h1{font-family:'Baloo 2',cursive;font-size:clamp(30px,4.5vw,56px);font-weight:800;color:#fff;line-height:1.12;letter-spacing:-.015em;margin-bottom:14px}
+.hero-h1 .gold{background:linear-gradient(90deg,#ffaa44,#ffe066,#ffaa44);background-size:200%;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:gshine 3s linear infinite}
+@keyframes gshine{to{background-position:200% center}}
+.hero-sub{font-size:15px;color:rgba(255,255,255,.6);line-height:1.72;margin-bottom:26px;max-width:460px}
+.hero-searchbar{background:rgba(255,255,255,.12);border:1.5px solid rgba(255,255,255,.22);border-radius:14px;padding:5px;display:flex;gap:6px;max-width:460px}
+.hero-searchbar input{flex:1;background:none;border:none;outline:none;padding:9px 14px;color:#fff;font-family:'Hind',sans-serif;font-size:14px}
+.hero-searchbar input::placeholder{color:rgba(255,255,255,.45)}
+.hero-sbtn{padding:9px 20px;border-radius:10px;border:none;cursor:pointer;background:var(--saffron);color:#fff;font-family:'Baloo 2',cursive;font-size:14px;font-weight:700;transition:background .2s;white-space:nowrap}
+.hero-sbtn:hover{background:var(--saffron2)}
+.hero-stats{display:flex;gap:20px;margin-top:24px;flex-wrap:wrap}
+.hstat{text-align:center}.hstat-n{font-family:'Baloo 2',cursive;font-size:22px;font-weight:800;color:#ffe066;line-height:1}
+.hstat-l{font-size:10px;color:rgba(255,255,255,.5);letter-spacing:.06em;text-transform:uppercase;margin-top:2px}
+.hero-card{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.hc-top{background:linear-gradient(135deg,var(--saffron),#c0390a);padding:24px;text-align:center}
+.hc-icon{font-size:52px;margin-bottom:8px}
+.hc-tag{font-family:'Baloo 2',cursive;font-size:15px;font-weight:800;color:#fff}
+.hc-body{padding:18px}
+.hc-badge{display:inline-block;background:#e8f5e9;color:var(--green);border-radius:100px;padding:2px 12px;font-size:10px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;margin-bottom:8px;border:1px solid rgba(26,107,58,.2)}
+.hc-title{font-family:'Baloo 2',cursive;font-size:16px;font-weight:800;color:var(--ink);margin-bottom:6px;line-height:1.3}
+.hc-desc{font-size:12px;color:var(--muted);line-height:1.6;margin-bottom:12px}
+.hc-btn{width:100%;padding:11px;border-radius:10px;border:none;cursor:pointer;background:linear-gradient(135deg,var(--green),var(--green2));color:#fff;font-family:'Baloo 2',cursive;font-size:14px;font-weight:700;transition:all .2s}
+.hc-btn:hover{transform:translateY(-1px);box-shadow:0 4px 14px rgba(26,107,58,.3)}
+
+/* AD UNIT */
+.ad-wrap{text-align:center;margin:16px 0}
+.ad-label{font-size:9px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px}
+.ad-box{background:var(--bg2);border:1.5px dashed var(--border);border-radius:10px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:12px;letter-spacing:.05em;padding:10px}
+
+/* MAIN */
+.main-wrap{max-width:1200px;margin:0 auto;padding:36px 24px;display:grid;grid-template-columns:1fr 310px;gap:28px}
+
+/* SEC HEADERS */
+.sec-hd{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
+.sec-title{font-family:'Baloo 2',cursive;font-size:21px;font-weight:800;color:var(--ink);display:flex;align-items:center;gap:8px}
+.sec-title::before{content:'';width:4px;height:22px;background:var(--saffron);border-radius:2px;flex-shrink:0}
+.see-all{font-size:13px;color:var(--saffron);font-weight:700;cursor:pointer;text-decoration:none;background:none;border:none}
+.see-all:hover{text-decoration:underline}
+
+/* CAT CHIPS */
+.cat-row{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:24px}
+.cchip{padding:6px 16px;border-radius:100px;border:1.5px solid var(--border);background:#fff;color:var(--ink2);font-size:12px;font-weight:600;cursor:pointer;transition:all .18s}
+.cchip:hover,.cchip.on{background:var(--saffron);border-color:var(--saffron);color:#fff}
+
+/* YOJANA CARDS */
+.ygrid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:28px}
+.ycard{background:var(--card);border:1.5px solid var(--border);border-radius:15px;overflow:hidden;cursor:pointer;transition:all .25s}
+.ycard:hover{border-color:var(--saffron);box-shadow:var(--shadow-lg);transform:translateY(-3px)}
+.yc-top{padding:18px 18px 14px;display:flex;align-items:flex-start;gap:12px}
+.yc-ico{width:48px;height:48px;border-radius:11px;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0}
+.ico-or{background:linear-gradient(135deg,#fff3e0,#ffe0b2)}.ico-gr{background:linear-gradient(135deg,#e8f5e9,#c8e6c9)}.ico-bl{background:linear-gradient(135deg,#e3f2fd,#bbdefb)}.ico-pu{background:linear-gradient(135deg,#f3e5f5,#e1bee7)}.ico-re{background:linear-gradient(135deg,#fce4ec,#f8bbd0)}.ico-te{background:linear-gradient(135deg,#e0f7fa,#b2ebf2)}.ico-ye{background:linear-gradient(135deg,#fffde7,#fff9c4)}.ico-pi{background:linear-gradient(135deg,#fce4ec,#f48fb1)}
+.yc-bdg{display:inline-block;border-radius:100px;padding:2px 9px;font-size:9px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;margin-bottom:4px}
+.bdg-c{background:#e3f2fd;color:var(--blue);border:1px solid rgba(0,71,171,.2)}
+.bdg-n{background:#fff8e1;color:#d84315;border:1px solid rgba(216,67,21,.25)}
+.bdg-s{background:#f3e5f5;color:#6a0dad;border:1px solid rgba(106,13,173,.2)}
+.yc-name{font-family:'Baloo 2',cursive;font-size:14px;font-weight:800;color:var(--ink);line-height:1.25;margin-bottom:2px}
+.yc-short{font-size:11px;color:var(--muted);line-height:1.5}
+.yc-btm{border-top:1px solid var(--border);padding:10px 18px;display:flex;align-items:center;justify-content:space-between}
+.yc-benefit{font-size:12px;font-weight:700;color:var(--green)}
+.yc-arr{font-size:12px;color:var(--saffron);font-weight:700}
+
+/* ARTICLE CARDS */
+.acard{background:var(--card);border:1.5px solid var(--border);border-radius:14px;padding:22px;margin-bottom:14px;cursor:pointer;transition:all .22s}
+.acard:hover{border-color:var(--blue);box-shadow:var(--shadow)}
+.ac-meta{display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap}
+.ac-cat{padding:2px 10px;border-radius:100px;font-size:10px;font-weight:700;letter-spacing:.07em;text-transform:uppercase}
+.cat-or{background:#fff3e0;color:var(--saffron);border:1px solid rgba(232,98,10,.3)}
+.cat-gr{background:#e8f5e9;color:var(--green);border:1px solid rgba(26,107,58,.2)}
+.cat-bl{background:#e3f2fd;color:var(--blue);border:1px solid rgba(0,71,171,.2)}
+.cat-pu{background:#f3e5f5;color:#6a0dad;border:1px solid rgba(106,13,173,.2)}
+.cat-re{background:#fce4ec;color:#c62828;border:1px solid rgba(198,40,40,.2)}
+.ac-date{font-size:11px;color:var(--muted)}
+.ac-title{font-family:'Baloo 2',cursive;font-size:17px;font-weight:800;color:var(--ink);margin-bottom:7px;line-height:1.3}
+.ac-desc{font-size:13px;color:var(--muted);line-height:1.65;margin-bottom:12px}
+.ac-foot{display:flex;align-items:center;justify-content:space-between}
+.ac-read{font-size:12px;color:var(--saffron);font-weight:700}
+.ac-time{font-size:11px;color:var(--muted)}
+
+/* SIDEBAR */
+.sw{background:var(--card);border:1.5px solid var(--border);border-radius:15px;padding:18px;margin-bottom:18px}
+.sw-title{font-family:'Baloo 2',cursive;font-size:15px;font-weight:800;color:var(--ink);margin-bottom:14px;padding-bottom:9px;border-bottom:2px solid var(--saffron)}
+.ql{display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:1px solid var(--border);cursor:pointer;text-decoration:none;transition:all .18s}
+.ql:last-child{border-bottom:none}
+.ql:hover .ql-t{color:var(--saffron)}
+.ql-ico{width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:17px;flex-shrink:0}
+.ql-t{font-size:13px;font-weight:600;color:var(--ink);line-height:1.3}
+.ql-s{font-size:11px;color:var(--muted)}
+.upd{display:flex;gap:9px;padding:9px 0;border-bottom:1px solid var(--border);cursor:pointer}
+.upd:last-child{border-bottom:none}
+.upd-dot{width:7px;height:7px;border-radius:50%;background:var(--saffron);flex-shrink:0;margin-top:5px}
+.upd-txt{font-size:12px;color:var(--ink2);line-height:1.5;font-weight:500}
+.upd-date{font-size:10px;color:var(--muted);margin-top:2px}
+.helpline-box{background:linear-gradient(135deg,#0d0d2b,#1a1a5c);border-radius:14px;padding:18px;margin-bottom:18px}
+.hb-title{font-family:'Baloo 2',cursive;font-size:15px;font-weight:800;color:#ff9933;margin-bottom:12px}
+.hb-item{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid rgba(255,255,255,.1);font-size:12px}
+.hb-item:last-child{border-bottom:none}
+.hb-name{color:rgba(255,255,255,.65)}
+.hb-num{font-family:'Baloo 2',cursive;font-weight:700;color:#ffe066}
+
+/* STATIC PAGES */
+.static-page{max-width:860px;margin:0 auto;padding:48px 24px 80px;display:none}
+.static-page.show{display:block}
+.sp-title{font-family:'Baloo 2',cursive;font-size:42px;font-weight:800;letter-spacing:-.02em;margin-bottom:6px}
+.sp-title span{color:var(--saffron)}
+.sp-sub{font-size:15px;color:var(--muted);margin-bottom:36px;line-height:1.65}
+.sp-card{background:#fff;border:1.5px solid var(--border);border-radius:18px;padding:32px;margin-bottom:20px}
+.sp-h2{font-family:'Baloo 2',cursive;font-size:20px;font-weight:800;color:var(--ink);margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.sp-p{font-size:14px;color:var(--ink2);line-height:1.8;margin-bottom:12px}
+.sp-ul{list-style:none;margin-bottom:12px}
+.sp-ul li{font-size:14px;color:var(--ink2);padding:6px 0;border-bottom:1px solid var(--border);display:flex;align-items:flex-start;gap:8px;line-height:1.55}
+.sp-ul li::before{content:'▸';color:var(--saffron);flex-shrink:0}
+.sp-ul li:last-child{border-bottom:none}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px}
+.cbox{background:linear-gradient(135deg,#fff3e0,#fce4ec);border:1.5px solid rgba(232,98,10,.2);border-radius:14px;padding:20px;text-align:center}
+.cbox-icon{font-size:32px;margin-bottom:8px}
+.cbox-title{font-family:'Baloo 2',cursive;font-size:15px;font-weight:800;color:var(--ink);margin-bottom:4px}
+.cbox-val{font-size:13px;color:var(--saffron);font-weight:600}
+.contact-form{background:#fff;border:1.5px solid var(--border);border-radius:16px;padding:28px;margin-top:20px}
+.cf-title{font-family:'Baloo 2',cursive;font-size:18px;font-weight:800;margin-bottom:18px}
+.cf-field{margin-bottom:14px}
+.cf-label{display:block;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
+.cf-inp{width:100%;border:1.5px solid var(--border);border-radius:10px;padding:11px 14px;font-family:'Hind',sans-serif;font-size:14px;color:var(--ink);background:var(--bg);outline:none;transition:border-color .2s}
+.cf-inp:focus{border-color:var(--saffron);background:#fff}
+.cf-ta{width:100%;border:1.5px solid var(--border);border-radius:10px;padding:11px 14px;font-family:'Hind',sans-serif;font-size:14px;color:var(--ink);background:var(--bg);outline:none;resize:vertical;min-height:120px;transition:border-color .2s}
+.cf-ta:focus{border-color:var(--saffron);background:#fff}
+.cf-btn{width:100%;padding:13px;border-radius:11px;border:none;cursor:pointer;background:linear-gradient(135deg,var(--saffron),#c0390a);color:#fff;font-family:'Baloo 2',cursive;font-size:16px;font-weight:800;transition:all .2s}
+.cf-btn:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(232,98,10,.35)}
+
+/* ARTICLE MODAL */
+.art-ov{display:none;position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:500;overflow-y:auto;padding:16px;backdrop-filter:blur(8px)}
+.art-ov.open{display:block}
+.art-modal{max-width:780px;margin:32px auto;background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 20px 70px rgba(0,0,0,.35);animation:popIn .3s ease}
+@keyframes popIn{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.am-hdr{padding:28px 32px;color:#fff;position:relative}
+.am-close{position:absolute;top:14px;right:18px;background:rgba(255,255,255,.22);border:none;color:#fff;width:30px;height:30px;border-radius:50%;font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .2s}
+.am-close:hover{background:rgba(255,255,255,.38)}
+.am-icon{font-size:44px;margin-bottom:10px}
+.am-title{font-family:'Baloo 2',cursive;font-size:24px;font-weight:800;line-height:1.2;margin-bottom:8px}
+.am-meta-bar{display:flex;gap:14px;font-size:12px;opacity:.8;flex-wrap:wrap}
+.am-body{padding:28px 32px}
+.am-sec{margin-bottom:22px}
+.am-h2{font-family:'Baloo 2',cursive;font-size:17px;font-weight:800;color:var(--ink);margin-bottom:10px;display:flex;align-items:center;gap:6px}
+.am-p{font-size:14px;color:#333;line-height:1.78;margin-bottom:10px}
+.am-ul{list-style:none;margin-bottom:10px}
+.am-ul li{padding:7px 0;border-bottom:1px solid var(--border);font-size:13px;display:flex;align-items:flex-start;gap:8px;line-height:1.55}
+.am-ul li::before{content:'✅';flex-shrink:0;font-size:12px}
+.am-ul li:last-child{border-bottom:none}
+.am-note{background:linear-gradient(135deg,#fff8e1,#fff3e0);border-left:4px solid var(--saffron);border-radius:0 12px 12px 0;padding:14px 18px;margin:14px 0;font-size:13px;color:var(--ink2);line-height:1.65}
+.am-cta{background:linear-gradient(135deg,var(--green),var(--green2));border-radius:14px;padding:18px;text-align:center;margin-top:18px}
+.am-cta p{color:rgba(255,255,255,.8);font-size:13px;margin-bottom:10px}
+.am-cta a{display:inline-block;background:#fff;color:var(--green);padding:11px 26px;border-radius:10px;font-family:'Baloo 2',cursive;font-size:14px;font-weight:800;text-decoration:none;transition:all .2s}
+.am-cta a:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(0,0,0,.2)}
+.am-ad{background:var(--bg2);border:1.5px dashed var(--border);border-radius:10px;padding:14px;text-align:center;color:var(--muted);font-size:11px;margin:18px 0}
+
+/* FOOTER */
+footer{background:var(--ink);color:rgba(255,255,255,.55);margin-top:32px}
+.flag-bar{height:5px;display:flex}.fb1{flex:1;background:#ff9933}.fb2{flex:1;background:#fff}.fb3{flex:1;background:#138808}
+.footer-inner{max-width:1200px;margin:0 auto;padding:36px 24px}
+.ft{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:28px;margin-bottom:28px}
+.ft-brand-name{font-family:'Baloo 2',cursive;font-size:18px;font-weight:800;color:var(--saffron);margin-bottom:6px}
+.ft-brand-desc{font-size:12px;color:rgba(255,255,255,.45);line-height:1.65;margin-bottom:10px}
+.ft-disclaimer{font-size:10px;color:rgba(255,255,255,.28);line-height:1.7;background:rgba(255,255,255,.05);border-radius:8px;padding:10px 12px}
+.ft-col-h{font-family:'Baloo 2',cursive;font-size:12px;font-weight:700;color:rgba(255,255,255,.75);letter-spacing:.09em;text-transform:uppercase;margin-bottom:12px}
+.ft-link{display:block;font-size:12px;color:rgba(255,255,255,.42);margin-bottom:7px;cursor:pointer;transition:color .18s;background:none;border:none;text-align:left;font-family:'Hind',sans-serif}
+.ft-link:hover{color:var(--saffron)}
+.ft-bottom{border-top:1px solid rgba(255,255,255,.09);padding-top:18px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;font-size:11px}
+
+/* TOAST */
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(10px);background:var(--ink);border-radius:100px;padding:11px 22px;color:#fff;font-size:13px;font-weight:500;z-index:999;opacity:0;transition:all .3s;pointer-events:none;white-space:nowrap;box-shadow:0 6px 28px rgba(0,0,0,.3)}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* RESPONSIVE */
+@media(max-width:900px){.hero-inner{grid-template-columns:1fr}.hero-card{display:none}.main-wrap{grid-template-columns:1fr}.sidebar{display:none}.ft{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.ygrid{grid-template-columns:1fr}.nav-links{display:none}.contact-grid{grid-template-columns:1fr}.ft{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<div id="cursor-blocker" style="display:none"></div>
+
+<!-- TICKER -->
+<div class="ticker">
+  <div class="ticker-inner">
+    <div class="t-label">🔴 LIVE</div>
+    <div class="t-scroll">
+      <span>PM Kisan 19th Installment — Status Check Now</span>
+      <span>PM Awas Yojana 2025 — New Registrations Open</span>
+      <span>Ayushman Bharat — 70+ Senior Citizens Ab Eligible</span>
+      <span>Ujjwala Yojana 3.0 — Free LPG Apply Karo</span>
+      <span>Sukanya Samriddhi — 8.2% Interest Confirmed</span>
+      <span>PM Mudra Loan — ₹10 Lakh Bina Guarantee</span>
+      <span>National Scholarship 2025 — Apply Window Open</span>
+      <span>PM Kisan 19th Installment — Status Check Now</span>
+      <span>PM Awas Yojana 2025 — New Registrations Open</span>
+      <span>Ayushman Bharat — 70+ Senior Citizens Ab Eligible</span>
+      <span>Ujjwala Yojana 3.0 — Free LPG Apply Karo</span>
+      <span>Sukanya Samriddhi — 8.2% Interest Confirmed</span>
+      <span>PM Mudra Loan — ₹10 Lakh Bina Guarantee</span>
+      <span>National Scholarship 2025 — Apply Window Open</span>
+    </div>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <div class="nav-logo" onclick="showPage('home')">
+      <div class="logo-flag"><div class="lf1"></div><div class="lf2">🔵</div><div class="lf3"></div></div>
+      <div><div class="logo-name">YojanaSaathi</div><div class="logo-sub">Sarkari Yojana Ki Poori Jankari</div></div>
+    </div>
+    <div class="nav-links">
+      <button class="nl on" id="nl-home" onclick="showPage('home')">🏠 Home</button>
+      <button class="nl" id="nl-articles" onclick="showPage('articles')">📰 Articles</button>
+      <button class="nl" id="nl-about" onclick="showPage('about')">ℹ️ About Us</button>
+      <button class="nl" id="nl-contact" onclick="showPage('contact')">📞 Contact</button>
+      <button class="nl" id="nl-privacy" onclick="showPage('privacy')">🔒 Privacy</button>
+      <button class="nl" id="nl-disclaimer" onclick="showPage('disclaimer')">⚠️ Disclaimer</button>
+      <button class="nl green-btn" onclick="window.open('https://services.india.gov.in','_blank')">Apply Now →</button>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════ HOME PAGE ═══════════════ -->
+<div id="page-home">
+  <div class="hero">
+    <div class="hero-inner">
+      <div>
+        <div class="hero-eyebrow">🇮🇳 India Ki #1 Yojana Guide</div>
+        <h1 class="hero-h1">Sarkari Yojana Ka<br><span class="gold">Poora Fayda Uthao</span></h1>
+        <p class="hero-sub">India ki 500+ government schemes ki jankari ek jagah — simple Hinglish mein. Apply kaise karein, documents kya chahiye, benefit kab milega, sab yahan.</p>
+        <div class="hero-searchbar">
+          <input type="text" id="hsearch" placeholder="Search karo... jaise PM Awas, Kisan, Ayushman">
+          <button class="hero-sbtn" onclick="doHSearch()">Search 🔍</button>
+        </div>
+        <div class="hero-stats">
+          <div class="hstat"><div class="hstat-n">500+</div><div class="hstat-l">Yojanas</div></div>
+          <div class="hstat"><div class="hstat-n">25+</div><div class="hstat-l">Articles</div></div>
+          <div class="hstat"><div class="hstat-n">Free</div><div class="hstat-l">Hamesha</div></div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hc-top"><div class="hc-icon">🏡</div><div class="hc-tag">Aaj Ki Top Yojana</div></div>
+        <div class="hc-body">
+          <div class="hc-badge">✅ Active 2025</div>
+          <div class="hc-title">PM Awas Yojana Gramin — Pucca Ghar Paao</div>
+          <div class="hc-desc">Garib parivaaron ko ₹1.2 lakh ki sahayata pucca ghar banane ke liye. Jaldi apply karo!</div>
+          <button class="hc-btn" onclick="openArt('pmay')">Poori Jankari →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-wrap">
+    <div>
+      <!-- AD TOP -->
+      <div class="ad-wrap"><div class="ad-label">Advertisement</div><div class="ad-box" style="height:90px">📢 Google AdSense — Approve hone ke baad yahan ads aayengi (728×90)</div></div>
+
+      <!-- CATEGORIES -->
+      <div class="sec-hd"><div class="sec-title">Category Chuniye</div></div>
+      <div class="cat-row">
+        <button class="cchip on" onclick="filterCat('all')">🌟 Sabhi</button>
+        <button class="cchip" onclick="filterCat('Kisan')">🌾 Kisan</button>
+        <button class="cchip" onclick="filterCat('Mahila')">👩 Mahila</button>
+        <button class="cchip" onclick="filterCat('Awas')">🏠 Awas</button>
+        <button class="cchip" onclick="filterCat('Health')">🏥 Health</button>
+        <button class="cchip" onclick="filterCat('Rozgar')">💼 Rozgar</button>
+        <button class="cchip" onclick="filterCat('Shiksha')">📚 Shiksha</button>
+        <button class="cchip" onclick="filterCat('Pension')">👴 Pension</button>
+        <button class="cchip" onclick="filterCat('Digital')">📱 Digital</button>
+      </div>
+
+      <!-- YOJANA GRID -->
+      <div class="sec-hd"><div class="sec-title">Popular Yojanas</div><button class="see-all" onclick="showPage('articles')">Sabhi Dekhein →</button></div>
+      <div class="ygrid" id="ygrid">
+        <div class="ycard" data-cat="Awas" onclick="openArt('pmay')"><div class="yc-top"><div class="yc-ico ico-or">🏡</div><div><div class="yc-bdg bdg-c">Central</div><div class="yc-name">PM Awas Yojana Gramin</div><div class="yc-short">Pucca ghar banane ki sahayata</div></div></div><div class="yc-btm"><div class="yc-benefit">₹1.2 Lakh</div><div class="yc-arr">Padho →</div></div></div>
+        <div class="ycard" data-cat="Kisan" onclick="openArt('kisan')"><div class="yc-top"><div class="yc-ico ico-gr">🌾</div><div><div class="yc-bdg bdg-c">Central</div><div class="yc-name">PM Kisan Samman Nidhi</div><div class="yc-short">Kisanon ko ₹6000/year</div></div></div><div class="yc-btm"><div class="yc-benefit">₹6,000/Year</div><div class="yc-arr">Padho →</div></div></div>
+        <div class="ycard" data-cat="Health" onclick="openArt('ayushman')"><div class="yc-top"><div class="yc-ico ico-bl">🏥</div><div><div class="yc-bdg bdg-c">Central</div><div class="yc-name">Ayushman Bharat PM-JAY</div><div class="yc-short">₹5 lakh free health cover</div></div></div><div class="yc-btm"><div class="yc-benefit">₹5 Lakh Cover</div><div class="yc-arr">Padho →</div></div></div>
+        <div class="ycard" data-cat="Mahila" onclick="openArt('ujjwala')"><div class="yc-top"><div class="yc-ico ico-re">🔥</div><div><div class="yc-bdg bdg-n">New 2025</div><div class="yc-name">Ujjwala Yojana 3.0</div><div class="yc-short">Free LPG connection mahilaon ko</div></div></div><div class="yc-btm"><div class="yc-benefit">Free Connection</div><div class="yc-arr">Padho →</div></div></div>
+        <div class="ycard" data-cat="Mahila" onclick="openArt('sukanya')"><div class="yc-top"><div class="yc-ico ico-pu">👧</div><div><div class="yc-bdg bdg-c">Central</div><div class="yc-name">Sukanya Samriddhi Yojana</div><div class="yc-short">Beti ke future ke liye 8.2% interest</div></div></div><div class="yc-btm"><div class="yc-benefit">8.2% Interest</div><div class="yc-arr">Padho →</div></div></div>
+        <div class="ycard" data-cat="Rozgar" onclick="openArt('mudra')"><div class="yc-top"><div class="yc-ico ico-te">💼</div><div><div class="yc-bdg bdg-c">Central</div><div class="yc-name">PM Mudra Loan Yojana</div><div class="yc-short">₹10 lakh bina guarantee business loan</div></div></div><div class="yc-btm"><div class="yc-benefit">₹10 Lakh Loan</div><div class="yc-arr">Padho →</div></div></div>
+        <div class="ycard" data-cat="Pension" onclick="openArt('maandhan')"><div class="yc-top"><div class="yc-ico ico-or">👴</div><div><div class="yc-bdg bdg-c">Central</div><div class="yc-name">PM Shram Yogi Maandhan</div><div class="yc-short">₹3000/month pension unorganized workers</div></div></div><div class="yc-btm"><div class="yc-benefit">₹3,000/Month</div><div class="yc-arr">Padho →</div></div></div>
+        <div class="ycard" data-cat="Shiksha" onclick="openArt('scholarship')"><div class="yc-top"><div class="yc-ico ico-bl">📚</div><div><div class="yc-bdg bdg-n">Apply Open</div><div class="yc-name">National Scholarship Portal</div><div class="yc-short">SC/ST/OBC/Minority students ke liye</div></div></div><div class="yc-btm"><div class="yc-benefit">₹75,000 Tak</div><div class="yc-arr">Padho →</div></div></div>
+        <div class="ycard" data-cat="Rozgar" onclick="openArt('startup')"><div class="yc-top"><div class="yc-ico ico-ye">🚀</div><div><div class="yc-bdg bdg-c">Central</div><div class="yc-name">Startup India Scheme</div><div class="yc-short">Apna startup shuru karo government support se</div></div></div><div class="yc-btm"><div class="yc-benefit">Tax Benefits + Funding</div><div class="yc-arr">Padho →</div></div></div>
+        <div class="ycard" data-cat="Digital" onclick="openArt('jandhan')"><div class="yc-top"><div class="yc-ico ico-gr">🏦</div><div><div class="yc-bdg bdg-c">Central</div><div class="yc-name">Jan Dhan Yojana</div><div class="yc-short">Zero balance bank account + insurance</div></div></div><div class="yc-btm"><div class="yc-benefit">Free Account + ₹2L Cover</div><div class="yc-arr">Padho →</div></div></div>
+      </div>
+
+      <!-- AD MIDDLE -->
+      <div class="ad-wrap"><div class="ad-label">Advertisement</div><div class="ad-box" style="height:250px">📢 Google AdSense — 300×250 Rectangle Ad</div></div>
+
+      <!-- LATEST ARTICLES (first 6) -->
+      <div class="sec-hd"><div class="sec-title">Latest Articles</div><button class="see-all" onclick="showPage('articles')">25 Articles Dekhein →</button></div>
+      <div id="home-articles"></div>
+    </div>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+      <div class="sw">
+        <div class="sw-title">⚡ Quick Apply Links</div>
+        <a class="ql" href="https://pmayg.nic.in" target="_blank"><div class="ql-ico ico-or">🏡</div><div><div class="ql-t">PM Awas Yojana</div><div class="ql-s">pmayg.nic.in</div></div></a>
+        <a class="ql" href="https://pmkisan.gov.in" target="_blank"><div class="ql-ico ico-gr">🌾</div><div><div class="ql-t">PM Kisan Portal</div><div class="ql-s">pmkisan.gov.in</div></div></a>
+        <a class="ql" href="https://beneficiary.nha.gov.in" target="_blank"><div class="ql-ico ico-bl">🏥</div><div><div class="ql-t">Ayushman Card</div><div class="ql-s">nha.gov.in</div></div></a>
+        <a class="ql" href="https://scholarships.gov.in" target="_blank"><div class="ql-ico ico-pu">📚</div><div><div class="ql-t">Scholarship Portal</div><div class="ql-s">scholarships.gov.in</div></div></a>
+        <a class="ql" href="https://www.mudra.org.in" target="_blank"><div class="ql-ico ico-te">💼</div><div><div class="ql-t">Mudra Loan</div><div class="ql-s">mudra.org.in</div></div></a>
+        <a class="ql" href="https://maandhan.in" target="_blank"><div class="ql-ico ico-or">👴</div><div><div class="ql-t">PM Maandhan</div><div class="ql-s">maandhan.in</div></div></a>
+      </div>
+      <div class="ad-wrap"><div class="ad-label">Advertisement</div><div class="ad-box" style="height:250px;font-size:11px">📢 Sidebar Ad<br>300×250</div></div>
+      <div class="sw">
+        <div class="sw-title">🔔 Latest Updates</div>
+        <div class="upd" onclick="openArt('kisan')"><div class="upd-dot"></div><div><div class="upd-txt">PM Kisan 19th Installment — Status Check</div><div class="upd-date">20 May 2025</div></div></div>
+        <div class="upd" onclick="openArt('pmay')"><div class="upd-dot"></div><div><div class="upd-txt">PM Awas — Online Apply Window Open</div><div class="upd-date">18 May 2025</div></div></div>
+        <div class="upd" onclick="openArt('ayushman')"><div class="upd-dot"></div><div><div class="upd-txt">Ayushman Card Mobile Se Banao</div><div class="upd-date">15 May 2025</div></div></div>
+        <div class="upd" onclick="openArt('ujjwala')"><div class="upd-dot"></div><div><div class="upd-txt">Ujjwala 3.0 — New Applications Open</div><div class="upd-date">12 May 2025</div></div></div>
+        <div class="upd" onclick="openArt('scholarship')"><div class="upd-dot"></div><div><div class="upd-txt">Scholarship 2025 — Registration Shuru</div><div class="upd-date">10 May 2025</div></div></div>
+      </div>
+      <div class="helpline-box">
+        <div class="hb-title">📞 Sarkari Helplines</div>
+        <div class="hb-item"><span class="hb-name">PM Kisan</span><span class="hb-num">155261</span></div>
+        <div class="hb-item"><span class="hb-name">Ayushman</span><span class="hb-num">14555</span></div>
+        <div class="hb-item"><span class="hb-name">PM Awas</span><span class="hb-num">1800-11-6446</span></div>
+        <div class="hb-item"><span class="hb-name">Ujjwala</span><span class="hb-num">1906</span></div>
+        <div class="hb-item"><span class="hb-name">Jan Dhan</span><span class="hb-num">1800-11-0001</span></div>
+        <div class="hb-item"><span class="hb-name">MGNREGA</span><span class="hb-num">1800-111-555</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════ ALL ARTICLES PAGE ═══════════════ -->
+<div id="page-articles" class="static-page">
+  <div class="sp-title">Sabhi <span>Articles</span></div>
+  <div class="sp-sub">25 original articles — sarkari yojanaon ki complete guide Hinglish mein</div>
+  <div class="ad-wrap"><div class="ad-label">Advertisement</div><div class="ad-box" style="height:90px">📢 AdSense Ad (728×90)</div></div>
+  <div id="all-articles-list" style="margin-top:20px"></div>
+</div>
+
+<!-- ═══════════════ ABOUT US ═══════════════ -->
+<div id="page-about" class="static-page">
+  <div class="sp-title">About <span>Us</span></div>
+  <div class="sp-sub">YojanaSaathi ke baare mein — hamare mission, vision aur team ki jankari</div>
+  <div class="sp-card">
+    <div class="sp-h2">🎯 Hamara Mission</div>
+    <div class="sp-p">YojanaSaathi ek non-commercial information platform hai jiska uddeshya India ke har nagrik tak sarkari yojanaon ki sahi aur updated jankari pahunchana hai — bilkul free mein, simple Hinglish language mein.</div>
+    <div class="sp-p">Bahut baar log sarkari yojanaon ke baare mein ya toh jaante nahi, ya phir galat jankari ki wajah se fayda nahi utha paate. Hamare blog ka maksad yahi gap bharna hai.</div>
+  </div>
+  <div class="sp-card">
+    <div class="sp-h2">📖 Hum Kya Karte Hain</div>
+    <ul class="sp-ul">
+      <li>India ki 500+ central aur state government schemes ki jankari research karke publish karte hain</li>
+      <li>Har yojana ke liye eligibility, documents, apply process step by step explain karte hain</li>
+      <li>Schemes mein jo bhi changes hote hain unhe regularly update karte hain</li>
+      <li>Official government websites ke direct links provide karte hain</li>
+      <li>Common questions ke jawab simple language mein dete hain</li>
+    </ul>
+  </div>
+  <div class="sp-card">
+    <div class="sp-h2">🌟 Kyun Trust Karein Hume</div>
+    <ul class="sp-ul">
+      <li>Hum sirf official government sources se jankari lete hain — PIB, Ministry websites, government portals</li>
+      <li>Koi bhi fees ya charges nahi lete — ye bilkul free service hai</li>
+      <li>Kisi bhi scam ya fraud se koi relation nahi — hum sirf information share karte hain</li>
+      <li>Apply karne ke liye hamesha official government website pe redirect karte hain</li>
+      <li>Har article mein date mention hoti hai — aap dekh sakte hain jankari kitni fresh hai</li>
+    </ul>
+  </div>
+  <div class="sp-card">
+    <div class="sp-h2">⚠️ Important Notice</div>
+    <div class="sp-p">YojanaSaathi ek independent information website hai. Hum Indian Government ya kisi bhi government department ke official representative ya affiliate nahi hain. Yahan di gayi jankari educational purpose ke liye hai. Kisi bhi yojana mein apply karne ke liye hamesha official government website use karein aur kisi dalal ko paise na dein.</div>
+    <div class="sp-p">Agar aapke paas koi suggestion hai ya koi galti dikhti hai kisi article mein, toh please humse contact karein — hum turant update karenge.</div>
+  </div>
+</div>
+
+<!-- ═══════════════ CONTACT US ═══════════════ -->
+<div id="page-contact" class="static-page">
+  <div class="sp-title">Contact <span>Us</span></div>
+  <div class="sp-sub">Koi bhi sawaal, suggestion ya feedback — hum sunne ke liye hamesha taiyar hain</div>
+  <div class="contact-grid">
+    <div class="cbox"><div class="cbox-icon">📧</div><div class="cbox-title">Email Karein</div><div class="cbox-val">contact@yojanasaathi.in</div></div>
+    <div class="cbox"><div class="cbox-icon">💬</div><div class="cbox-title">WhatsApp</div><div class="cbox-val">+91 98XXXXXXXX</div></div>
+    <div class="cbox"><div class="cbox-icon">🕐</div><div class="cbox-title">Response Time</div><div class="cbox-val">24-48 Ghante Mein</div></div>
+    <div class="cbox"><div class="cbox-icon">📍</div><div class="cbox-title">Location</div><div class="cbox-val">India 🇮🇳</div></div>
+  </div>
+  <div class="contact-form">
+    <div class="cf-title">📝 Message Bhejein</div>
+    <div class="cf-field"><label class="cf-label">Aapka Naam</label><input class="cf-inp" type="text" placeholder="Full name likhein"></div>
+    <div class="cf-field"><label class="cf-label">Email Address</label><input class="cf-inp" type="email" placeholder="email@example.com"></div>
+    <div class="cf-field"><label class="cf-label">Subject</label>
+      <select class="cf-inp" style="cursor:pointer">
+        <option>Yojana ke baare mein sawaal</option>
+        <option>Galat jankari report karni hai</option>
+        <option>Naya article suggest karna hai</option>
+        <option>Website mein bug hai</option>
+        <option>Partnership / Collaboration</option>
+        <option>Kuch aur</option>
+      </select>
+    </div>
+    <div class="cf-field"><label class="cf-label">Aapka Message</label><textarea class="cf-ta" placeholder="Apna message yahan likhein..."></textarea></div>
+    <button class="cf-btn" onclick="submitForm()">📤 Message Bhejein</button>
+  </div>
+  <div class="sp-card" style="margin-top:20px">
+    <div class="sp-h2">❓ Common Questions</div>
+    <ul class="sp-ul">
+      <li><strong>Kya aap ticket book karte ho?</strong> — Nahi, hum sirf information provide karte hain. Apply karne ke liye official government website use karein.</li>
+      <li><strong>Kya aapko payment karna padega?</strong> — Bilkul nahi. Ye website 100% free hai.</li>
+      <li><strong>Kya aap mere documents sambhal sakte ho?</strong> — Nahi. Apne documents sirf official government portals pe upload karein.</li>
+      <li><strong>Article update karne ki request?</strong> — Haan! Contact form mein likhein, hum check karenge.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ═══════════════ PRIVACY POLICY ═══════════════ -->
+<div id="page-privacy" class="static-page">
+  <div class="sp-title">Privacy <span>Policy</span></div>
+  <div class="sp-sub">Last Updated: 20 May 2025 | YojanaSaathi aapki privacy ka poora dhyan rakhta hai</div>
+  <div class="sp-card">
+    <div class="sp-h2">📋 Overview</div>
+    <div class="sp-p">YojanaSaathi ("hum", "hamari website") aapki privacy ki raksha karne ke liye committed hai. Ye Privacy Policy batati hai ki hum kaunsa data collect karte hain, kaise use karte hain, aur aapke rights kya hain.</div>
+    <div class="sp-p">Is website ko use karke aap is Privacy Policy se agree karte hain.</div>
+  </div>
+  <div class="sp-card">
+    <div class="sp-h2">📊 Kaunsa Data Collect Hota Hai</div>
+    <ul class="sp-ul">
+      <li><strong>Automatically collected:</strong> IP address, browser type, pages visited, time spent — ye Google Analytics ke through hota hai</li>
+      <li><strong>Contact form:</strong> Jab aap message bhejte ho toh naam, email aur message collect hota hai — sirf reply karne ke liye</li>
+      <li><strong>Cookies:</strong> Google AdSense aur Analytics cookies use karta hai — aap browser settings mein disable kar sakte hain</li>
+      <li><strong>Personal information:</strong> Hum koi bhi sensitive personal information (Aadhar, bank details etc.) kabhi nahi maangte aur na collect karte hain</li>
+    </ul>
+  </div>
+  <div class="sp-card">
+    <div class="sp-h2">🍪 Cookies Policy</div>
+    <div class="sp-p">Hamari website cookies use karti hai better experience ke liye:</div>
+    <ul class="sp-ul">
+      <li><strong>Google Analytics cookies</strong> — website traffic aur user behavior samajhne ke liye</li>
+      <li><strong>Google AdSense cookies</strong> — relevant ads dikhane ke liye</li>
+      <li><strong>Session cookies</strong> — website properly kaam kare isiliye</li>
+    </ul>
+    <div class="sp-p">Aap apne browser mein cookies disable kar sakte hain, lekin isse website ka kuch functionality affect ho sakta hai.</div>
+  </div>
+  <div class="sp-card">
+    <div class="sp-h2">🔗 Third Party Links</div>
+    <div class="sp-p">Hamari website government portals aur official websites ke links provide karti hai (jaise pmkisan.gov.in, nha.gov.in etc.). Jab aap in links pe click karte ho toh aap un websites ki privacy policy ke under aate ho — jo ki hamare control mein nahi hai. Hum in websites ki privacy practices ke liye responsible nahi hain.</div>
+  </div>
+  <div class="sp-card">
+    <div class="sp-h2">🛡️ Data Security</div>
+    <ul class="sp-ul">
+      <li>Hum aapka data kisi third party ko sell nahi karte</li>
+      <li>Contact form ka data sirf reply ke liye use hota hai</li>
+      <li>Analytics data anonymous hota hai — koi personally identifiable information nahi</li>
+      <li>Humara server SSL encrypted hai (HTTPS)</li>
+    </ul>
+  </div>
+  <div class="sp-card">
+    <div class="sp-h2">📧 Aapke Rights</div>
+    <ul class="sp-ul">
+      <li>Apna data delete karwane ka request kar sakte hain</li>
+      <li>Janana chahte ho ki hamne aapka kya data rakha hai — email karein</li>
+      <li>Cookies opt-out kar sakte hain</li>
+      <li>Newsletter/emails se unsubscribe kar sakte hain</li>
+    </ul>
+    <div class="sp-p">Kisi bhi privacy concern ke liye: <strong>privacy@yojanasaathi.in</strong> pe contact karein.</div>
+  </div>
+</div>
+
+<!-- ═══════════════ DISCLAIMER ═══════════════ -->
+<div id="page-disclaimer" class="static-page">
+  <div class="sp-title"><span>Disclaimer</span></div>
+  <div class="sp-sub">Please is page ko dhyan se padhen — ye bahut important hai</div>
+  <div class="sp-card" style="border-left:4px solid var(--saffron)">
+    <div class="sp-h2">⚠️ General Disclaimer</div>
+    <div class="sp-p">YojanaSaathi.in ek independent information aur educational website hai. Yahan publish ki gayi jankari sirf general awareness ke liye hai. Hum Indian Government, Ministry of Finance, ya kisi bhi government department ke official spokesperson ya affiliate nahi hain.</div>
+    <div class="sp-p">Is website pe di gayi jankari ko use karne se pehle hamesha official government portals pe verify karein, kyunki government policies aur schemes mein badlav hote rehte hain.</div>
+  </div>
+  <div class="sp-card">
+    <div class="sp-h2">🚫 Kya Hum Nahi Karte</div>
+    <ul class="sp-ul">
+      <li>Koi bhi sarkari yojana mein apply karne ke liye fees nahi lete</li>
+      <li>Kisi ke documents collect nahi karte</li>
+      <li>Kisi bhi yojana mein "guaranteed approval" ka vaada nahi karte</li>
+      <li>IRCTC, bank ya kisi government portal ka password nahi maangte</li>
+      <li>Koi bhi personal financial advice nahi dete</li>
+    </ul>
+  </div>
+  <div class="sp-card">
+    <div class="sp-h2">✅ Accuracy of Information</div>
+    <div class="sp-p">Hum poori koshish karte hain ki yahan di gayi jankari accurate aur updated ho. Lekin government schemes mein badlav hote rehte hain — amounts, eligibility, documents — sab change ho sakta hai. Isliye apply karne se pehle official website check karein.</div>
+    <div class="sp-p">Agar koi galti milti hai, please humse contact karein — hum turant theek karenge.</div>
+  </div>
+  <div class="sp-card">
+    <div class="sp-h2">💰 Affiliate Disclosure</div>
+    <div class="sp-p">Is website pe Google AdSense ke through advertisements dikhte hain jisse humein income hoti hai. Ye ads hamare articles ki authenticity ko affect nahi karte. Hum kisi bhi sarkari yojana ke affiliate nahi hain aur na hi hum government ki taraf se koi payment lete hain.</div>
+    <div class="sp-p">Koi bhi external links (government websites) recommend karte waqt hum sirf official sources use karte hain — koi personal benefit nahi hota.</div>
+  </div>
+  <div class="sp-card">
+    <div class="sp-h2">📞 Fraud Se Savdhaan Rahein</div>
+    <ul class="sp-ul">
+      <li>Koi bhi YojanaSaathi ke naam pe phone karke paise maange toh ye fraud hai</li>
+      <li>Sarkari yojana mein apply karna hamesha FREE hota hai</li>
+      <li>Kisi dalal ko paise dene ki zarurat nahi — official website pe khud apply karein</li>
+      <li>Shak ho toh helpline numbers pe call karein (sidebar mein diye hain)</li>
+    </ul>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="flag-bar"><div class="fb1"></div><div class="fb2"></div><div class="fb3"></div></div>
+  <div class="footer-inner">
+    <div class="ft">
+      <div>
+        <div class="ft-brand-name">🇮🇳 YojanaSaathi</div>
+        <div class="ft-brand-desc">India ki sabhi sarkari yojanaon ki authentic jankari Hinglish mein. Free, updated, trusted.</div>
+        <div class="ft-disclaimer">⚠️ Ye ek independent information website hai. Government ka official portal nahi hai. Apply karne ke liye hamesha official government websites use karein.</div>
+      </div>
+      <div>
+        <div class="ft-col-h">Yojana Category</div>
+        <button class="ft-link" onclick="filterCat('Kisan');showPage('home')">🌾 Kisan Yojana</button>
+        <button class="ft-link" onclick="filterCat('Mahila');showPage('home')">👩 Mahila Yojana</button>
+        <button class="ft-link" onclick="filterCat('Awas');showPage('home')">🏠 Awas Yojana</button>
+        <button class="ft-link" onclick="filterCat('Health');showPage('home')">🏥 Health Yojana</button>
+        <button class="ft-link" onclick="filterCat('Shiksha');showPage('home')">📚 Shiksha Yojana</button>
+        <button class="ft-link" onclick="filterCat('Rozgar');showPage('home')">💼 Rozgar Yojana</button>
+      </div>
+      <div>
+        <div class="ft-col-h">Official Links</div>
+        <a class="ft-link" href="https://india.gov.in" target="_blank">india.gov.in</a>
+        <a class="ft-link" href="https://services.india.gov.in" target="_blank">Apply Online</a>
+        <a class="ft-link" href="https://umang.gov.in" target="_blank">UMANG App</a>
+        <a class="ft-link" href="https://digilocker.gov.in" target="_blank">DigiLocker</a>
+        <a class="ft-link" href="https://pib.gov.in" target="_blank">PIB India</a>
+      </div>
+      <div>
+        <div class="ft-col-h">Website</div>
+        <button class="ft-link" onclick="showPage('about')">About Us</button>
+        <button class="ft-link" onclick="showPage('contact')">Contact Us</button>
+        <button class="ft-link" onclick="showPage('privacy')">Privacy Policy</button>
+        <button class="ft-link" onclick="showPage('disclaimer')">Disclaimer</button>
+        <button class="ft-link" onclick="showPage('articles')">All Articles</button>
+      </div>
+    </div>
+    <div class="ft-bottom">
+      <span>© 2025 YojanaSaathi. All Rights Reserved.</span>
+      <span>Made with ❤️ for India 🇮🇳 | Helpline: <strong style="color:var(--saffron)">139</strong></span>
+    </div>
+  </div>
+</footer>
+
+<!-- ARTICLE MODAL -->
+<div class="art-ov" id="art-ov" onclick="closeArtOv(event)">
+  <div class="art-modal">
+    <div class="am-hdr" id="am-hdr">
+      <button class="am-close" onclick="closeArt()">✕</button>
+      <div class="am-icon" id="am-icon">📋</div>
+      <div class="am-title" id="am-title">Title</div>
+      <div class="am-meta-bar" id="am-meta"><span>📅 2025</span><span>⏱ 5 min</span></div>
+    </div>
+    <div class="am-body" id="am-body"></div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast">✅ Done!</div>
+
+<script>
+/* ════════════════════════════════════════
+   25 ORIGINAL ARTICLES DATA
+════════════════════════════════════════ */
+const ARTICLES = [
+  {
+    id:'pmay', cat:'Awas', catClass:'cat-or', icon:'🏡', date:'20 May 2025', readTime:'6 min',
+    color:'linear-gradient(135deg,#e65100,#bf360c)',
+    title:'PM Awas Yojana Gramin 2025 — Pucca Ghar Kaise Paayein, Complete Guide',
+    desc:'Agar aapka khud ka pucca ghar nahi hai toh ye yojana aapke liye hai. Eligibility, documents, apply process sab yahan...',
+    body:`<div class="am-sec"><div class="am-h2">📋 Yojana Kya Hai?</div><div class="am-p">PM Awas Yojana Gramin (PMAYG) ek central government scheme hai jiske under gramin areas ke garib parivaaron ko pucca makaan banane ke liye financial sahayata di jaati hai. 2016 mein shuru iss scheme ne abhi tak 2 crore se zyada gharano ko ghar dilwaya hai.</div><div class="am-note">💡 2025 Update: ₹1.20 lakh (plain areas) aur ₹1.30 lakh (hilly areas) milte hain. Saath mein MGNREGA se 90 din ki mazdoori bhi milti hai.</div></div><div class="am-sec"><div class="am-h2">✅ Eligibility — Kaun Apply Kar Sakta Hai</div><ul class="am-ul"><li>Kacche ghar ya jhopdi mein rehne wale parivar</li><li>BPL (Below Poverty Line) list mein naam</li><li>SC/ST, minorities, OBC ko priority</li><li>Pehle se pucca ghar nahi hona chahiye</li><li>SECC 2011 data mein naam hona zaroori</li><li>Mahila ke naam pe preference milti hai</li></ul></div><div class="am-sec"><div class="am-h2">📄 Required Documents</div><ul class="am-ul"><li>Aadhar Card (sabhi family members ka)</li><li>Bank Account (Aadhar linked, zero balance bhi chalega)</li><li>BPL Certificate ya Ration Card</li><li>Caste Certificate (SC/ST ke liye)</li><li>Zameen ka proof (agar hai)</li><li>Passport size photo (2 copies)</li></ul></div><div class="am-sec"><div class="am-h2">📝 Apply Kaise Karein — Step by Step</div><ul class="am-ul"><li><strong>Step 1:</strong> Gram Panchayat office jaao — apna naam PMAYG waiting list mein check karo</li><li><strong>Step 2:</strong> Agar naam hai toh local Block Development Officer (BDO) se milein</li><li><strong>Step 3:</strong> AwaasSoft portal ya Awaas App pe registration karein</li><li><strong>Step 4:</strong> Saare documents submit karein — verification hogi</li><li><strong>Step 5:</strong> Approval ke baad pehli installment seedha bank mein aayegi</li><li><strong>Step 6:</strong> Ghar bana ke photo upload karo — baaki installments milti rahengi</li></ul><div class="am-note">⚠️ Kisi bhi dalal ko paise mat do! Ye process bilkul FREE hai. Shikayat ke liye: 1800-11-6446</div></div><div class="am-sec"><div class="am-h2">💰 Kitna Milega</div><ul class="am-ul"><li>Plain areas: ₹1,20,000</li><li>Hilly/difficult areas: ₹1,30,000</li><li>MGNREGA: 90 din ki unskilled labour</li><li>Swachh Bharat Mission: ₹12,000 toilet ke liye alag</li></ul></div><div class="am-cta"><p>Official website pe apply karein — bilkul free</p><a href="https://pmayg.nic.in" target="_blank">pmayg.nic.in Pe Jaao →</a></div>`
+  },
+  {
+    id:'kisan', cat:'Kisan', catClass:'cat-gr', icon:'🌾', date:'18 May 2025', readTime:'5 min',
+    color:'linear-gradient(135deg,#1b5e20,#2e7d32)',
+    title:'PM Kisan Samman Nidhi 2025 — ₹6000 Paane Ka Poora Tarika, 19th Installment Update',
+    desc:'PM Kisan ki 19th installment release ho chuki hai. Status kaise check karein, registration kaise karein — sab detail mein...',
+    body:`<div class="am-sec"><div class="am-h2">📋 Yojana Overview</div><div class="am-p">PM Kisan Samman Nidhi Yojana ke under registered farmers ko ₹6000 per year milte hain — ₹2000-₹2000 ki 3 installments mein, seedha bank account mein DBT ke through. Ye scheme February 2019 mein launch hui thi.</div><div class="am-note">📣 19th Installment February 2025 mein release hui. 20th Installment June 2025 expected hai.</div></div><div class="am-sec"><div class="am-h2">✅ Eligibility</div><ul class="am-ul"><li>Khud ki agricultural land honi chahiye</li><li>Kisan ya uske parivar ka naam zameen pe hona chahiye</li><li>Income tax return bharne wale eligible NAHI</li><li>Sarkari naukri karne wale eligible NAHI</li><li>₹10,000+ monthly pension wale eligible NAHI</li><li>Ek parivar mein sirf ek registration</li></ul></div><div class="am-sec"><div class="am-h2">📝 New Registration</div><ul class="am-ul"><li>pmkisan.gov.in pe jaao</li><li>"Farmers Corner" → "New Farmer Registration"</li><li>Aadhar number aur mobile daalo</li><li>State, district, tehsil, village select karo</li><li>Zameen ki details (khasra/khatauni number)</li><li>Bank account (IFSC code ke saath)</li><li>Submit karo — 2-3 hafte mein verification</li></ul></div><div class="am-sec"><div class="am-h2">🔍 Status Check Karna</div><ul class="am-ul"><li>pmkisan.gov.in → "Beneficiary Status"</li><li>Aadhar ya mobile number se check karo</li><li>Payi gayi installments ki list dikhegi</li><li>Agar payment ruki hai → "e-KYC" karwao</li></ul><div class="am-note">📱 UMANG App se bhi status check kar sakte ho</div></div><div class="am-sec"><div class="am-h2">❓ Payment Nahi Aayi — Kya Karein</div><ul class="am-ul"><li>e-KYC complete karo — iske bina payment band hoti hai</li><li>Bank account Aadhar se link karo</li><li>Zameen ki details correct karwao</li><li>Helpline: 155261 ya 1800-115-526</li></ul></div><div class="am-cta"><p>Abhi status check karo ya naya registration karein</p><a href="https://pmkisan.gov.in" target="_blank">pmkisan.gov.in Pe Jaao →</a></div>`
+  },
+  {
+    id:'ayushman', cat:'Health', catClass:'cat-bl', icon:'🏥', date:'16 May 2025', readTime:'6 min',
+    color:'linear-gradient(135deg,#0d47a1,#1565c0)',
+    title:'Ayushman Bharat Card 2025 — ₹5 Lakh Free Treatment, Ghar Baithe Kaise Banayein',
+    desc:'Ayushman Bharat PM-JAY duniya ki sabse badi health insurance scheme hai. Card banwana ab mobile se possible hai...',
+    body:`<div class="am-sec"><div class="am-h2">📋 Kya Hai Ayushman Bharat</div><div class="am-p">Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) ke under eligible parivaaron ko ₹5 lakh tak free hospital treatment milta hai — har saal. 1500+ treatment packages covered hain, 25,000+ hospitals empanelled hain.</div><div class="am-note">🆕 2025 Update: 70 saal ya usse upar ke SABHI senior citizens eligible hain — income ki koi limit nahi!</div></div><div class="am-sec"><div class="am-h2">✅ Kaun Eligible Hai</div><ul class="am-ul"><li>SECC 2011 database mein listed parivar</li><li>NFSA ration card holders (priority/antyodaya)</li><li>70+ age ke sabhi senior citizens</li><li>Construction workers, domestic workers, street vendors</li><li>MGNREGA workers (100 din se zyada)</li></ul></div><div class="am-sec"><div class="am-h2">📱 Mobile Se Card Kaise Banayein</div><ul class="am-ul"><li>beneficiary.nha.gov.in pe jaao</li><li>Mobile number se OTP login karein</li><li>Aadhar number verify karein (face ID ya OTP)</li><li>Eligibility automatically check hogi</li><li>Approved hone pe digital card download karein</li><li>Ya nearest CSC center pe FREE mein banwayein</li></ul></div><div class="am-sec"><div class="am-h2">🏥 Kahan Kaam Karega Card</div><ul class="am-ul"><li>Sabhi government aur empanelled private hospitals mein</li><li>Cancer, heart surgery, kidney treatment — sab cover</li><li>Admission se pehle cashless treatment</li><li>Hospital mein "Ayushman Mitra" se milein</li><li>Ambulance service bhi cover hoti hai</li></ul></div><div class="am-sec"><div class="am-h2">💡 Important Tips</div><ul class="am-ul"><li>Card ek baar ban jaata hai — update karte rehna zaroor</li><li>Ek card se puri family ko faayda milta hai</li><li>Koi bhi dalal se card mat banwao — FREE hai</li><li>Helpline: 14555</li></ul></div><div class="am-cta"><p>Apni eligibility check karo aur card banao</p><a href="https://beneficiary.nha.gov.in" target="_blank">Ayushman Card Banao →</a></div>`
+  },
+  {
+    id:'ujjwala', cat:'Mahila', catClass:'cat-or', icon:'🔥', date:'14 May 2025', readTime:'4 min',
+    color:'linear-gradient(135deg,#b71c1c,#c62828)',
+    title:'Ujjwala Yojana 3.0 — 2025 Mein Free LPG Connection Kaise Milega',
+    desc:'PM Ujjwala Yojana 3.0 mein aur zyada mahilayein eligible hain. Free connection + pehla cylinder kaise paayein...',
+    body:`<div class="am-sec"><div class="am-h2">📋 Yojana Kya Hai</div><div class="am-p">Pradhan Mantri Ujjwala Yojana (PMUY) ke under BPL parivaaron ki ghar ki mahilaon ko free LPG gas connection diya jaata hai. Ujjwala 3.0 mein scope badha diya gaya hai — ab zyada log eligible hain.</div><div class="am-note">🎁 Free milta hai: Connection + Pressure Regulator + Pipe + Pehla 14.2 kg cylinder!</div></div><div class="am-sec"><div class="am-h2">✅ Eligibility</div><ul class="am-ul"><li>18 saal se upar ki mahila ke naam pe apply hoga</li><li>BPL parivar ya SECC list mein naam</li><li>Pehle se LPG connection nahi hona chahiye</li><li>PM Awas, Antyodaya, MGNREGA families — priority</li><li>SC/ST parivar — priority</li><li>Ujjwala 3.0 mein migrants bhi eligible (address proof flexible)</li></ul></div><div class="am-sec"><div class="am-h2">📝 Apply Kaise Karein</div><ul class="am-ul"><li>Najdiki HP / Indane / Bharat Gas dealer pe jaao</li><li>KYC form bharo — Aadhar + Bank details</li><li>Ya pmuy.gov.in pe online apply karo</li><li>Documents verify hone ke baad connection set hoga</li><li>First cylinder delivery par milega</li></ul></div><div class="am-sec"><div class="am-h2">📄 Documents Needed</div><ul class="am-ul"><li>Aadhar Card (mahila ka)</li><li>BPL Card ya Ration Card</li><li>Bank Account (mahila ke naam pe)</li><li>Passport size photo</li><li>Self-declaration form (dealer dega)</li></ul></div><div class="am-cta"><p>Najdiki dealer dhundho ya online apply karo</p><a href="https://pmuy.gov.in" target="_blank">pmuy.gov.in Pe Apply Karo →</a></div>`
+  },
+  {
+    id:'sukanya', cat:'Mahila', catClass:'cat-pu', icon:'👧', date:'12 May 2025', readTime:'5 min',
+    color:'linear-gradient(135deg,#6a1b9a,#7b1fa2)',
+    title:'Sukanya Samriddhi Yojana 2025 — Beti Ke Liye 8.2% Interest, Tax Free Savings',
+    desc:'Beti ki padhai aur shaadi ke liye sabse best government savings scheme. 8.2% guaranteed interest aur tax benefits...',
+    body:`<div class="am-sec"><div class="am-h2">📋 Kya Hai SSY</div><div class="am-p">Sukanya Samriddhi Yojana "Beti Bachao Beti Padhao" campaign ka hissa hai. 10 saal se kam umar ki beti ke naam pe post office ya authorized bank mein account khulta hai. 8.2% interest milta hai — sab se zyada guaranteed return.</div><div class="am-note">💰 ₹1000 invest karo aaj — beti ke 21 saal ki umar mein lakhs milenge!</div></div><div class="am-sec"><div class="am-h2">✅ Key Benefits</div><ul class="am-ul"><li>8.2% annual compound interest — government guaranteed</li><li>Section 80C — ₹1.5 lakh tak tax deduction</li><li>Maturity amount bilkul tax free</li><li>Minimum ₹250/year — maximum ₹1.5 lakh/year</li><li>21 saal mein mature hoga ya beti ki shaadi pe (18+ ke baad)</li><li>15 saal tak deposit karo — 21 saal tak interest milta hai</li></ul></div><div class="am-sec"><div class="am-h2">📝 Account Kaise Khulwayein</div><ul class="am-ul"><li>Najdiki Post Office ya authorized bank jaao (SBI, PNB, BOB, Canara etc.)</li><li>Beti ka birth certificate le jaao</li><li>Aadhar Card — maa-baap aur beti ka</li><li>Address proof</li><li>Minimum ₹250 starting deposit</li><li>Account khulne ka form bharo — done!</li></ul></div><div class="am-sec"><div class="am-h2">💡 Important Rules</div><ul class="am-ul"><li>Ek family mein maximum 2 accounts (2 betiyon ke liye)</li><li>Twins ya triplets ho toh exception milta hai</li><li>18 saal ke baad 50% withdraw kar sakte hain (education ke liye)</li><li>Account transfer ho sakta hai — ek city se doosri city</li></ul></div><div class="am-cta"><p>Aaj hi beti ke naam account khulwao</p><a href="https://www.indiapost.gov.in" target="_blank">Post Office Pe Jaao →</a></div>`
+  },
+  {
+    id:'mudra', cat:'Rozgar', catClass:'cat-or', icon:'💼', date:'10 May 2025', readTime:'5 min',
+    color:'linear-gradient(135deg,#004d40,#00695c)',
+    title:'PM Mudra Loan Yojana 2025 — ₹10 Lakh Bina Guarantee Business Loan Kaise Lein',
+    desc:'Apna business shuru karna chahte ho? PM Mudra Loan mein ₹10 lakh tak bina kisi guarantee ke milta hai...',
+    body:`<div class="am-sec"><div class="am-h2">📋 Mudra Loan Kya Hai</div><div class="am-p">Pradhan Mantri MUDRA Yojana (PMMY) ke under chhote aur medium businesses ko collateral-free loan milta hai. MUDRA ka full form hai: Micro Units Development and Refinance Agency. Ye loan banks, NBFCs, aur Microfinance Institutions ke through milta hai.</div></div><div class="am-sec"><div class="am-h2">3 Types of Mudra Loan</div><ul class="am-ul"><li><strong>Shishu:</strong> ₹50,000 tak — naya business shuru karna ho</li><li><strong>Kishore:</strong> ₹50,000 to ₹5 lakh — business grow karna ho</li><li><strong>Tarun:</strong> ₹5 lakh to ₹10 lakh — established business expand karna ho</li></ul></div><div class="am-sec"><div class="am-h2">✅ Kaun Le Sakta Hai</div><ul class="am-ul"><li>Koi bhi Indian citizen — 18 saal se upar</li><li>Shopkeeper, artisan, vendor, trader, farmer</li><li>Women entrepreneurs ko special preference</li><li>SC/ST/OBC applicants ko priority</li><li>Koi minimum income requirement nahi</li><li>No CIBIL score requirement (Shishu ke liye)</li></ul></div><div class="am-sec"><div class="am-h2">📝 Apply Kaise Karein</div><ul class="am-ul"><li>Kisi bhi nationalized bank mein jaao (SBI, PNB, Bank of Baroda etc.)</li><li>Business plan taiyar karo — kya karoge, kitni income expect karte ho</li><li>MUDRA Loan application form bharo</li><li>Documents attach karo</li><li>7-15 din mein approval aur disbursement</li><li>Ya mudra.org.in pe online apply karo</li></ul></div><div class="am-sec"><div class="am-h2">📄 Documents</div><ul class="am-ul"><li>Aadhar Card aur PAN Card</li><li>Address proof</li><li>Business proof / trade license</li><li>Bank statement (6 months)</li><li>2 passport size photos</li><li>Caste certificate (agar applicable)</li></ul></div><div class="am-cta"><p>Aaj hi bank mein jaao ya online apply karo</p><a href="https://www.mudra.org.in" target="_blank">mudra.org.in Pe Jaao →</a></div>`
+  },
+  {
+    id:'maandhan', cat:'Pension', catClass:'cat-or', icon:'👴', date:'8 May 2025', readTime:'4 min',
+    color:'linear-gradient(135deg,#bf360c,#d84315)',
+    title:'PM Shram Yogi Maandhan 2025 — ₹3000 Monthly Pension Asangathit Kaamgaaron Ke Liye',
+    desc:'Rickshaw wale, construction worker, domestic helper — sabke liye ₹3000 monthly pension. Sirf ₹55/month premium...',
+    body:`<div class="am-sec"><div class="am-h2">📋 Yojana Overview</div><div class="am-p">PM Shram Yogi Maandhan (PM-SYM) unorganized sector ke workers ke liye pension scheme hai. 60 saal ki umar ke baad ₹3000 per month guaranteed pension milti hai. Sarkar bhi utna hi premium bharta hai jitna aap bharte ho — 50-50 contribution.</div></div><div class="am-sec"><div class="am-h2">✅ Eligibility</div><ul class="am-ul"><li>Umar: 18 se 40 saal ke beech</li><li>Monthly income: ₹15,000 se kam</li><li>Unorganized sector mein kaam karna chahiye</li><li>EPF/ESIC/NPS member nahi hona chahiye</li><li>Income tax nahi bharta hona chahiye</li></ul></div><div class="am-sec"><div class="am-h2">💰 Monthly Premium (Aapka Share)</div><ul class="am-ul"><li>18 saal mein join karo: ₹55/month</li><li>25 saal mein join karo: ₹80/month</li><li>30 saal mein join karo: ₹105/month</li><li>35 saal mein join karo: ₹150/month</li><li>40 saal mein join karo: ₹200/month</li></ul><div class="am-note">💡 Jitni jaldi join karo, utna kam premium bharna padega!</div></div><div class="am-sec"><div class="am-h2">📝 Registration</div><ul class="am-ul"><li>Najdiki CSC (Common Service Centre) pe jaao</li><li>Aadhar aur bank account (savings) le jaao</li><li>Mobile number chahiye</li><li>Agent registration karega — bilkul free</li><li>Ya maandhan.in pe online register karo</li></ul></div><div class="am-cta"><p>CSC center dhundho ya online register karo</p><a href="https://maandhan.in" target="_blank">maandhan.in Pe Jaao →</a></div>`
+  },
+  {
+    id:'scholarship', cat:'Shiksha', catClass:'cat-bl', icon:'📚', date:'6 May 2025', readTime:'5 min',
+    color:'linear-gradient(135deg,#1a237e,#283593)',
+    title:'National Scholarship Portal 2025 — ₹75,000 Tak Scholarship Apply Kaise Karein',
+    desc:'SC/ST/OBC/Minority students ke liye 50+ scholarships ek jagah. Pre-matric, post-matric, top class — sab yahan...',
+    body:`<div class="am-sec"><div class="am-h2">📋 NSP Kya Hai</div><div class="am-p">National Scholarship Portal (NSP) ek unified platform hai jahan 50+ scholarships ke liye ek jagah apply kar sakte hain. Pre-Matric (class 1-10), Post-Matric (class 11+), aur Merit-cum-Means scholarships available hain.</div></div><div class="am-sec"><div class="am-h2">🏆 Popular Scholarships</div><ul class="am-ul"><li>Pre-Matric SC/ST: ₹1,000-8,400/year</li><li>Post-Matric SC/ST: ₹3,000-25,000/year</li><li>Merit-cum-Means (Minorities): ₹30,000/year</li><li>Top Class Education (SC): ₹75,000/year</li><li>Central Sector Scheme: ₹12,000/year (merit based)</li><li>PM YASASVI (OBC/EWS): ₹75,000-₹1,25,000/year</li></ul></div><div class="am-sec"><div class="am-h2">📅 Apply Timeline</div><ul class="am-ul"><li>Registration: August/September mein shuru hoti hai</li><li>Deadline: October/November</li><li>Renewal: Previous year students ko renew karna hoga</li><li>Abhi: Apna NSP account banao taaki ready raho</li></ul></div><div class="am-sec"><div class="am-h2">📝 Apply Kaise Karein</div><ul class="am-ul"><li>scholarships.gov.in pe jaao</li><li>New Registration — student ke naam pe</li><li>Category, class, income details bharo</li><li>Documents upload karo</li><li>School/college se verify karwao</li><li>State/central authority approve karegi</li></ul></div><div class="am-sec"><div class="am-h2">📄 Documents</div><ul class="am-ul"><li>Aadhar Card (student ka)</li><li>Bank Account (student ke naam pe — zero balance chalega)</li><li>Caste/Category Certificate</li><li>Income Certificate (guardian ka)</li><li>Last year's marksheet</li><li>Bonafide Certificate (school/college se)</li></ul></div><div class="am-cta"><p>Abhi NSP pe account banao</p><a href="https://scholarships.gov.in" target="_blank">scholarships.gov.in Pe Jaao →</a></div>`
+  },
+  {
+    id:'startup', cat:'Rozgar', catClass:'cat-or', icon:'🚀', date:'4 May 2025', readTime:'5 min',
+    color:'linear-gradient(135deg,#e65100,#f57f17)',
+    title:'Startup India Scheme 2025 — Government Support Se Apna Startup Shuru Karein',
+    desc:'Startup India scheme ke through tax benefits, funding, mentorship aur registration support milta hai. Complete guide...',
+    body:`<div class="am-sec"><div class="am-h2">📋 Startup India Kya Hai</div><div class="am-p">Startup India government of India ka flagship program hai jo entrepreneurs ko support karta hai. Iske through DPIIT recognition milti hai, jiski wajah se tax benefits, easier compliance, aur government tenders mein preference milti hai.</div></div><div class="am-sec"><div class="am-h2">✅ Key Benefits</div><ul class="am-ul"><li>3 saal tak Income Tax exemption</li><li>Capital Gains Tax exemption</li>  <li>Patent filing mein 80% rebate</li><li>Self-certification compliance (labor/environment laws)</li><li>Government tenders mein priority</li><li>Seed funding scheme se ₹5-20 lakh funding</li><li>Free mentorship aur networking</li></ul></div><div class="am-sec"><div class="am-h2">📝 DPIIT Recognition Kaise Paayein</div><ul class="am-ul"><li>startupindia.gov.in pe jaao</li><li>"Get DPIIT Recognised" pe click karo</li><li>Company registration proof upload karo</li><li>Innovation ka description do</li><li>2-3 working days mein recognition certificate</li></ul></div><div class="am-sec"><div class="am-h2">💰 Startup India Seed Fund</div><ul class="am-ul"><li>Idea stage: ₹5 lakh tak (grant)</li><li>POC stage: ₹20 lakh tak (grant)</li><li>Market entry: ₹50 lakh tak (debt)</li><li>Selected incubators ke through milta hai</li></ul></div><div class="am-cta"><p>Aaj hi DPIIT recognition ke liye apply karo</p><a href="https://startupindia.gov.in" target="_blank">startupindia.gov.in Pe Jaao →</a></div>`
+  },
+  {
+    id:'jandhan', cat:'Digital', catClass:'cat-gr', icon:'🏦', date:'2 May 2025', readTime:'4 min',
+    color:'linear-gradient(135deg,#1b5e20,#388e3c)',
+    title:'Jan Dhan Yojana 2025 — Zero Balance Account + ₹2 Lakh Insurance Kaise Paayein',
+    desc:'Agar abhi tak bank account nahi hai, toh Jan Dhan Yojana ke through zero balance mein khulwao aur insurance bhi paao...',
+    body:`<div class="am-sec"><div class="am-h2">📋 Jan Dhan Yojana Kya Hai</div><div class="am-p">Pradhan Mantri Jan Dhan Yojana (PMJDY) ke through koi bhi Indian citizen zero balance savings account khulwa sakta hai. Iske saath ₹2 lakh accident insurance aur ₹30,000 life insurance bhi FREE milta hai.</div></div><div class="am-sec"><div class="am-h2">✅ Benefits</div><ul class="am-ul"><li>Zero balance savings account</li><li>₹2 lakh RuPay card accident insurance</li><li>₹30,000 life insurance (death benefit)</li><li>RuPay Debit Card — free</li><li>Mobile banking facility</li><li>₹10,000 overdraft facility (6 months baad)</li><li>Sabhi sarkari yojana benefits seedha account mein</li></ul></div><div class="am-sec"><div class="am-h2">📝 Account Kaise Khulwayein</div><ul class="am-ul"><li>Kisi bhi bank mein jaao (government ya private)</li><li>PMJDY account form maango aur bharo</li><li>Aadhar Card de do — bas itna kaafi hai</li><li>Agar Aadhar nahi hai toh voter ID / passport bhi chalega</li><li>Turant account number milega</li><li>RuPay card 7-10 din mein</li></ul></div><div class="am-note">💡 Koi bhi documents nahi hain? "Small Account" khulwa sakte ho — sirf photo aur self-declaration se.</div><div class="am-cta"><p>Najdiki bank mein jaao aur aaj hi account khulwao</p><a href="https://pmjdy.gov.in" target="_blank">pmjdy.gov.in Pe Jaao →</a></div>`
+  },
+  {
+    id:'mgnrega', cat:'Kisan', catClass:'cat-gr', icon:'⛏️', date:'30 Apr 2025', readTime:'4 min',
+    color:'linear-gradient(135deg,#33691e,#558b2f)',
+    title:'MGNREGA 2025 — 100 Din Ka Kaam Guarantee, ₹267/Day Mazdoori Kaise Paayein',
+    desc:'Mahatma Gandhi National Rural Employment Guarantee Act ke under 100 din ka guaranteed kaam milta hai. Complete process...',
+    body:`<div class="am-sec"><div class="am-h2">📋 MGNREGA Kya Hai</div><div class="am-p">MGNREGA ek right-based scheme hai — iska matlab ye hai ki kaam maangne pe guarantee hai government ki taraf se. Gramin areas ke adult members ko saal mein 100 din ka guaranteed kaam milta hai.</div></div><div class="am-sec"><div class="am-h2">✅ Key Features</div><ul class="am-ul"><li>100 din ka guaranteed employment per year</li><li>₹267/day minimum wage (state wise alag ho sakta hai)</li><li>15 din ke andar kaam dena zaroori (nahi toh unemployment allowance)</li><li>Ghar ke 5 km andar kaam</li><li>Mahilaon ke liye 33% reservation</li><li>Payment seedha bank/post office mein</li></ul></div><div class="am-sec"><div class="am-h2">📝 Job Card Kaise Banwayein</div><ul class="am-ul"><li>Gram Panchayat office mein application do</li><li>Parivar ke sabhi adults ke naam daalo</li><li>Aadhar aur photo chahiye</li><li>15 din mein Job Card milega</li><li>Job Card milte hi kaam maang sakte ho</li></ul></div><div class="am-note">💡 MGNREGA kaam maangne ke baad agar 15 din mein nahi mila toh "unemployment allowance" milna chahiye — ye aapka right hai!</div><div class="am-cta"><p>nrega.nic.in pe apna Job Card status check karo</p><a href="https://nrega.nic.in" target="_blank">nrega.nic.in Pe Jaao →</a></div>`
+  },
+  {
+    id:'ration', cat:'Kisan', catClass:'cat-gr', icon:'🌾', date:'28 Apr 2025', readTime:'4 min',
+    color:'linear-gradient(135deg,#e65100,#ff6f00)',
+    title:'Ration Card 2025 — Naya Ration Card Kaise Banwayein, NFSA Benefits Complete Guide',
+    desc:'Ration card sirf anaaj ke liye nahi — kai sarkari yojanaon mein eligibility bhi iska se milti hai. Complete guide...',
+    body:`<div class="am-sec"><div class="am-h2">📋 Ration Card Kyun Zaroori Hai</div><div class="am-p">Ration Card sirf subsidized anaaj ke liye nahi hai — ye ek important document hai jiske basis pe PM Awas, Ujjwala, Ayushman jaise kaafi yojanaon mein eligibility check hoti hai. Isliye agar nahi hai toh zaroor banwayein.</div></div><div class="am-sec"><div class="am-h2">Types of Ration Cards</div><ul class="am-ul"><li><strong>Antyodaya (AAY):</strong> Sabse garib parivar — sabse zyada benefits</li><li><strong>Priority Household (PHH):</strong> BPL parivar — substantial benefits</li><li><strong>Above Poverty Line (APL):</strong> Normal category</li></ul></div><div class="am-sec"><div class="am-h2">📝 Naya Ration Card Apply</div><ul class="am-ul"><li>Apne state ke Food Department portal pe jaao</li><li>Online application form bharo (most states mein online hai)</li><li>Ya District Food Office mein jaake form lo</li><li>Documents attach karo aur submit karo</li><li>Verification ke baad 30-45 din mein card milega</li></ul></div><div class="am-sec"><div class="am-h2">📄 Documents</div><ul class="am-ul"><li>Aadhar Card (sabhi family members ka)</li><li>Residence proof</li><li>Income certificate</li><li>Previous ration card (agar surrender karna ho)</li><li>Bank account details</li></ul></div><div class="am-cta"><p>Apne state ka food portal check karo</p><a href="https://nfsa.gov.in" target="_blank">nfsa.gov.in Pe Jaao →</a></div>`
+  },
+  {
+    id:'pm-kisan-credit', cat:'Kisan', catClass:'cat-gr', icon:'💳', date:'26 Apr 2025', readTime:'4 min',
+    color:'linear-gradient(135deg,#1b5e20,#2e7d32)',
+    title:'Kisan Credit Card (KCC) 2025 — Kisan Ko ₹3 Lakh Tak 4% Byaaj Pe Loan',
+    desc:'KCC se kisaan ko kheti ke liye short-term credit milti hai — sirf 4% interest rate pe, ₹3 lakh tak...',
+    body:`<div class="am-sec"><div class="am-h2">📋 KCC Kya Hai</div><div class="am-p">Kisan Credit Card (KCC) ek revolving credit facility hai jisse kisan kheti ke liye zaroor kharch — beej, khad, pesticide, equipment — ke liye short-term loan le sakte hain. Interest rate sirf 4% (3 lakh tak) hoti hai government subsidy ke baad.</div></div><div class="am-sec"><div class="am-h2">✅ Benefits</div><ul class="am-ul"><li>₹3 lakh tak 4% interest rate (2% aur ki subvention bhi mil sakti hai)</li><li>Revolving credit — baar baar use kar sakte ho</li><li>Crop insurance bhi include hoti hai</li><li>ATM card milta hai — cash withdraw kar sakte ho</li><li>Animal husbandry aur fisheries ke liye bhi available</li></ul></div><div class="am-sec"><div class="am-h2">📝 Kaise Apply Karein</div><ul class="am-ul"><li>Najdiki bank branch pe jaao — koi bhi nationalized bank</li><li>KCC application form bharo</li><li>Zameen ke documents, Aadhar, PAN attach karo</li><li>Bank land records verify karega</li><li>7-14 din mein card milega</li></ul></div><div class="am-cta"><p>Apne bank mein jaao ya PM Kisan portal pe check karo</p><a href="https://pmkisan.gov.in" target="_blank">PM Kisan Portal Pe Jaao →</a></div>`
+  },
+  {
+    id:'pmsby', cat:'Health', catClass:'cat-bl', icon:'🛡️', date:'24 Apr 2025', readTime:'3 min',
+    color:'linear-gradient(135deg,#0d47a1,#1976d2)',
+    title:'PM Suraksha Bima Yojana — ₹2 Lakh Accident Insurance Sirf ₹20/Year Mein',
+    desc:'Sirf 20 rupay saal mein — ₹2 lakh ka accident insurance. Sabhi bank account holders ke liye available...',
+    body:`<div class="am-sec"><div class="am-h2">📋 PMSBY Kya Hai</div><div class="am-p">Pradhan Mantri Suraksha Bima Yojana (PMSBY) ek government accident insurance scheme hai. Sirf ₹20 per year premium mein ₹2 lakh accident death/disability cover milta hai. Ye auto-debit hota hai aapke bank account se har saal 1 June ko.</div></div><div class="am-sec"><div class="am-h2">✅ Coverage</div><ul class="am-ul"><li>Accidental death: ₹2 lakh</li><li>Permanent total disability: ₹2 lakh</li><li>Permanent partial disability: ₹1 lakh</li><li>Age: 18-70 saal</li><li>Ek se zyada accounts se bhi enroll kar sakte ho (sirf ek ka claim milega)</li></ul></div><div class="am-sec"><div class="am-h2">📝 Enroll Kaise Karein</div><ul class="am-ul"><li>Apne bank branch pe jaao</li><li>PMSBY form bharo ya net banking mein activate karo</li><li>Ek consent form sign karo auto-debit ke liye</li><li>June 1 ko ₹20 automatically deduct hoga</li><li>SMS aayega confirmation ka</li></ul></div><div class="am-note">💡 PM Jan Dhan account holders ke liye sabse helpful — sabhi ko ye zaroor lena chahiye!</div><div class="am-cta"><p>Apne bank mein jaao ya net banking se activate karo</p><a href="https://jansuraksha.gov.in" target="_blank">jansuraksha.gov.in →</a></div>`
+  },
+  {
+    id:'pmjjby', cat:'Health', catClass:'cat-bl', icon:'❤️', date:'22 Apr 2025', readTime:'3 min',
+    color:'linear-gradient(135deg,#880e4f,#c2185b)',
+    title:'PM Jeevan Jyoti Bima Yojana — ₹2 Lakh Life Insurance Sirf ₹436/Year Mein',
+    desc:'Sirf 436 rupay saal mein ₹2 lakh life insurance — agar kuch ho jaaye toh family ko 2 lakh milega...',
+    body:`<div class="am-sec"><div class="am-h2">📋 PMJJBY Kya Hai</div><div class="am-p">Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) ek term life insurance scheme hai. Agar insured person ki kisi bhi reason se death ho jaaye (accident ya natural) toh family ko ₹2 lakh milte hain. Annual premium sirf ₹436 hai.</div></div><div class="am-sec"><div class="am-h2">✅ Key Details</div><ul class="am-ul"><li>Sum assured: ₹2 lakh</li><li>Annual premium: ₹436 (auto-debit)</li><li>Eligibility: 18-50 saal, bank account hona chahiye</li><li>Coverage: 1 June to 31 May (annual renewal)</li><li>Death benefit: Nominee ko ₹2 lakh</li></ul></div><div class="am-sec"><div class="am-h2">📝 Join Kaise Karein</div><ul class="am-ul"><li>Bank branch pe jaao ya net banking use karo</li><li>PMJJBY enrollment form bharo</li><li>Nominee ka naam daalo</li><li>Auto-debit consent do</li><li>₹436 automatically deduct hoga June 1 ko</li></ul></div><div class="am-note">💡 PMSBY (₹20) + PMJJBY (₹436) dono loge toh total sirf ₹456/year mein ₹4 lakh ka combined cover!</div><div class="am-cta"><p>Aaj hi bank mein enroll karo</p><a href="https://jansuraksha.gov.in" target="_blank">jansuraksha.gov.in →</a></div>`
+  },
+  {
+    id:'digital-india', cat:'Digital', catClass:'cat-bl', icon:'📱', date:'20 Apr 2025', readTime:'4 min',
+    color:'linear-gradient(135deg,#0277bd,#01579b)',
+    title:'Digital India 2025 — Free WiFi, Digital Literacy, Common Service Centre Se Kaise Fayda Uthaayein',
+    desc:'Digital India ke through free WiFi, digital literacy courses, aur CSC centers se kai government services ghar ke paas milti hain...',
+    body:`<div class="am-sec"><div class="am-h2">📋 Digital India Kya Hai</div><div class="am-p">Digital India campaign ke through government ne India ko digitally empower karne ka kaam kiya hai. Iske through PM-WANI free WiFi, DigiLocker, UMANG app, aur 5 lakh CSC centers banaye gaye hain jahan sarkari services milti hain.</div></div><div class="am-sec"><div class="am-h2">🌐 Free WiFi — PM-WANI</div><ul class="am-ul"><li>Sarkari jagahon pe free public WiFi</li><li>DigiLocker se documents digitally store karo</li><li>BharatNet — gramin areas mein broadband</li></ul></div><div class="am-sec"><div class="am-h2">📚 Free Digital Literacy</div><ul class="am-ul"><li>PMGDISHA — free digital literacy course</li><li>6 crore+ log trained ho chuke hain</li><li>Nearest CSC mein enroll karo — bilkul FREE</li><li>Certificate bhi milta hai</li></ul></div><div class="am-sec"><div class="am-h2">🏛️ CSC Centers Se Kya Milega</div><ul class="am-ul"><li>Aadhaar update, PAN card, passport apply</li><li>Banking services (banking correspondent)</li><li>Government scheme applications</li><li>Health checkup (telemedicine)</li><li>Education — school/college admissions</li></ul></div><div class="am-cta"><p>Najdiki CSC dhundho</p><a href="https://locator.csccloud.in" target="_blank">CSC Locator →</a></div>`
+  },
+  {
+    id:'e-shram', cat:'Rozgar', catClass:'cat-or', icon:'👷', date:'18 Apr 2025', readTime:'4 min',
+    color:'linear-gradient(135deg,#4a148c,#6a1b9a)',
+    title:'e-Shram Card 2025 — Kaise Banwayein, ₹2 Lakh Insurance Aur Benefits',
+    desc:'Unorganized workers ke liye e-Shram card zaroor banwayein — insurance, pension, aur future schemes ke liye register karo...',
+    body:`<div class="am-sec"><div class="am-h2">📋 e-Shram Kya Hai</div><div class="am-p">e-Shram India ka pehla National Database of Unorganized Workers (NDUW) hai. Isme register karne se ek Universal Account Number (UAN) milta hai, PMSBY ke through ₹2 lakh accident insurance milta hai, aur future welfare schemes ke liye register hote ho.</div></div><div class="am-sec"><div class="am-h2">✅ Kaun Register Kar Sakta Hai</div><ul class="am-ul"><li>16-59 saal ke unorganized sector workers</li><li>Construction workers, domestic workers, street vendors</li><li>Agricultural workers, fishermen, auto/taxi drivers</li><li>Gig workers (Swiggy, Ola, Zomato delivery etc.)</li><li>EPF/ESIC ke member nahi hone chahiye</li></ul></div><div class="am-sec"><div class="am-h2">📝 Registration Process</div><ul class="am-ul"><li>eshram.gov.in pe jaao ya CSC center pe jaao</li><li>Aadhar aur mobile number chahiye (Aadhar se linked)</li><li>Bank account details daalo</li><li>Occupation aur education details bharo</li><li>Registration free hai — UAN card milega</li></ul></div><div class="am-sec"><div class="am-h2">Benefits</div><ul class="am-ul"><li>₹2 lakh accident insurance (PMSBY ke through)</li><li>Maternity benefits (eligible workers ke liye)</li><li>Future schemes mein automatic coverage</li><li>Skill training opportunities</li></ul></div><div class="am-cta"><p>Abhi register karo — bilkul free</p><a href="https://eshram.gov.in" target="_blank">eshram.gov.in Pe Jaao →</a></div>`
+  },
+  {
+    id:'swachh-bharat', cat:'Awas', catClass:'cat-or', icon:'🚽', date:'16 Apr 2025', readTime:'3 min',
+    color:'linear-gradient(135deg,#1b5e20,#4caf50)',
+    title:'Swachh Bharat Mission — Free Toilet Construction Ke Liye ₹12,000 Kaise Paayein',
+    desc:'Ghar mein pukka toilet nahi hai? Swachh Bharat Mission ke through ₹12,000 ki sahayata milti hai...',
+    body:`<div class="am-sec"><div class="am-h2">📋 Yojana Overview</div><div class="am-p">Swachh Bharat Mission Gramin (SBM-G) ke under gramin areas mein individual household toilets (IHHL) banane ke liye ₹12,000 ki incentive milti hai. Ye raqam seedha beneficiary ke bank account mein jati hai.</div></div><div class="am-sec"><div class="am-h2">✅ Eligibility</div><ul class="am-ul"><li>Gramin areas mein rehte hoon</li><li>Pucca toilet nahi hona chahiye ghar mein</li><li>BPL parivar ya APL (income limit ke saath)</li><li>SC/ST, women-headed households — priority</li></ul></div><div class="am-sec"><div class="am-h2">📝 Apply Kaise Karein</div><ul class="am-ul"><li>Gram Panchayat mein application do</li><li>Toilet construction ke baad photo evidence do</li><li>IHHL online portal pe register karo</li><li>Verification ke baad ₹12,000 bank mein aayega</li></ul></div><div class="am-note">💡 PM Awas beneficiaries ko ₹12,000 alag se milte hain toilet ke liye — total package ₹1.32 lakh banta hai!</div><div class="am-cta"><p>Gram Panchayat mein apply karo ya online check karo</p><a href="https://sbm.gov.in" target="_blank">sbm.gov.in Pe Jaao →</a></div>`
+  },
+  {
+    id:'atal-pension', cat:'Pension', catClass:'cat-pu', icon:'🧓', date:'14 Apr 2025', readTime:'4 min',
+    color:'linear-gradient(135deg,#37474f,#546e7a)',
+    title:'Atal Pension Yojana 2025 — ₹5000 Monthly Pension Guaranteed, Kaise Join Karein',
+    desc:'60 saal ke baad guaranteed monthly pension ₹1000 se ₹5000 tak. Unorganized sector ke liye sabse best pension plan...',
+    body:`<div class="am-sec"><div class="am-h2">📋 APY Kya Hai</div><div class="am-p">Atal Pension Yojana (APY) ek government-backed pension scheme hai. 60 saal ki umar ke baad ₹1000 se ₹5000 tak monthly guaranteed pension milti hai — aapki choice ke hisaab se. Ye Pension Fund Regulatory and Development Authority (PFRDA) manage karta hai.</div></div><div class="am-sec"><div class="am-h2">💰 Pension Amount Options</div><ul class="am-ul"><li>₹1,000/month pension: Very low premium</li><li>₹2,000/month pension: Low premium</li><li>₹3,000/month pension: Moderate premium</li><li>₹4,000/month pension: Medium premium</li><li>₹5,000/month pension: Higher premium (worth it!)</li></ul><div class="am-note">💡 18 saal mein join karo ₹5000 pension ke liye — sirf ₹210/month premium!</div></div><div class="am-sec"><div class="am-h2">✅ Eligibility</div><ul class="am-ul"><li>18-40 saal ki umar</li><li>Savings bank account hona chahiye</li><li>Income tax nahi bharna chahiye (2022 se update)</li><li>Mobile number bank se linked hona chahiye</li></ul></div><div class="am-sec"><div class="am-h2">📝 Enroll Kaise Karein</div><ul class="am-ul"><li>Bank branch pe jaao ya net banking use karo</li><li>APY enrollment form bharo</li><li>Pension amount choose karo</li><li>Auto-debit start ho jaayega</li><li>APY e-PRAN number milega</li></ul></div><div class="am-cta"><p>Aaj hi apne bank mein APY enroll karo</p><a href="https://npscra.nsdl.co.in" target="_blank">APY Portal →</a></div>`
+  },
+  {
+    id:'pm-vikas', cat:'Rozgar', catClass:'cat-or', icon:'✂️', date:'12 Apr 2025', readTime:'4 min',
+    color:'linear-gradient(135deg,#bf360c,#e64a19)',
+    title:'PM Vishwakarma Yojana 2025 — Karigar Aur Shilpkar Ko ₹15,000 Toolkit + Training + Loan',
+    desc:'Carpenter, blacksmith, goldsmith, tailor, barber — sabhi traditional karigar is scheme se fayda utha sakte hain...',
+    body:`<div class="am-sec"><div class="am-h2">📋 PM Vishwakarma Kya Hai</div><div class="am-p">PM Vishwakarma Yojana September 2023 mein shuru hui — traditional craftsmen aur artisans ke liye. 18 trades cover hote hain jaise carpenter, mason, goldsmith, tailor, barber, potter, etc. Ek comprehensive package milta hai.</div></div><div class="am-sec"><div class="am-h2">✅ 18 Covered Trades</div><ul class="am-ul"><li>Carpenter (Badhai), Boat Maker, Armourer</li><li>Blacksmith (Lohar), Hammer & Tool Kit Maker</li><li>Mason (Raj Mistri), Sculptor</li><li>Cobbler, Goldsmith (Sonar), Potter</li><li>Tailor, Fishing Net Maker</li><li>Barber, Garland Maker, Dhobi</li><li>Basket/Mat/Broom Maker</li></ul></div><div class="am-sec"><div class="am-h2">🎁 Package Details</div><ul class="am-ul"><li>PM Vishwakarma Certificate</li><li>5-7 din basic training + ₹500/day stipend</li><li>₹15,000 toolkit incentive (e-voucher)</li><li>₹1 lakh loan (1st tranche) — 5% interest</li><li>₹2 lakh loan (2nd tranche) — 5% interest</li><li>Digital transaction incentive</li><li>Market linkage support</li></ul></div><div class="am-sec"><div class="am-h2">📝 Apply Kaise Karein</div><ul class="am-ul"><li>pmvishwakarma.gov.in pe jaao</li><li>Mobile OTP se login karo</li><li>Trade select karo</li><li>Documents upload karo</li><li>CSC center pe verification hogi</li></ul></div><div class="am-cta"><p>Abhi apply karo</p><a href="https://pmvishwakarma.gov.in" target="_blank">pmvishwakarma.gov.in →</a></div>`
+  },
+  {
+    id:'nps', cat:'Pension', catClass:'cat-pu', icon:'💰', date:'10 Apr 2025', readTime:'4 min',
+    color:'linear-gradient(135deg,#1a237e,#303f9f)',
+    title:'National Pension System (NPS) 2025 — Retirement Planning Aur Tax Saving Ek Saath',
+    desc:'NPS mein invest karo — retirement mein pension + lumpsum milega aur Section 80CCD ke through extra ₹50,000 tax save karo...',
+    body:`<div class="am-sec"><div class="am-h2">📋 NPS Kya Hai</div><div class="am-p">National Pension System (NPS) ek voluntary retirement savings scheme hai. Market-linked returns milte hain (typically 8-12% long term) aur retirement pe maturity amount ka 60% tax-free milta hai aur 40% se annuity (pension) purchase karni hoti hai.</div></div><div class="am-sec"><div class="am-h2">💰 Tax Benefits</div><ul class="am-ul"><li>Section 80C: ₹1.5 lakh tak deduction</li><li>Section 80CCD(1B): Extra ₹50,000 deduction (NPS only)</li><li>Total: ₹2 lakh tak tax saving possible</li><li>Maturity: 60% withdrawal tax-free</li></ul></div><div class="am-sec"><div class="am-h2">📝 Account Open Kaise Karein</div><ul class="am-ul"><li>eNPS portal: npscra.nsdl.co.in</li><li>Apne bank ke through bhi open ho sakta hai</li><li>KYC documents upload karo</li><li>Minimum ₹500 se shuru karo</li><li>PRAN number milega</li></ul></div><div class="am-sec"><div class="am-h2">Tier 1 vs Tier 2</div><ul class="am-ul"><li><strong>Tier 1:</strong> Mandatory — retirement account, 60 saal se pehle nahi nikal sakte (partial withdrawal possible)</li><li><strong>Tier 2:</strong> Voluntary — flexible withdrawal, tax benefit nahi milta</li></ul></div><div class="am-cta"><p>Online account open karo</p><a href="https://enps.nsdl.com" target="_blank">eNPS Portal →</a></div>`
+  },
+  {
+    id:'solar-rooftop', cat:'Digital', catClass:'cat-ye', icon:'☀️', date:'8 Apr 2025', readTime:'4 min',
+    color:'linear-gradient(135deg,#e65100,#ff8f00)',
+    title:'PM Surya Ghar — Free Rooftop Solar 2025, ₹78,000 Subsidy Kaise Paayein',
+    desc:'PM Surya Ghar Muft Bijli Yojana — ghar pe solar panel lagwao, free bijli paao aur ₹78,000 tak subsidy bhi...',
+    body:`<div class="am-sec"><div class="am-h2">📋 PM Surya Ghar Kya Hai</div><div class="am-p">PM Surya Ghar Muft Bijli Yojana February 2024 mein shuru hui. Iske under ghar pe rooftop solar panel lagwane pe heavy subsidy milti hai. 300 units free bijli per month ka target hai. 1 crore ghar cover karne ka plan hai 2026 tak.</div></div><div class="am-sec"><div class="am-h2">💰 Subsidy Amount</div><ul class="am-ul"><li>1 kW solar: ₹30,000 subsidy</li><li>2 kW solar: ₹60,000 subsidy</li><li>3 kW ya zyada: ₹78,000 (maximum)</li><li>Loan bhi available hai — low interest</li><li>Monthly bijli ka bill zero ya near-zero ho jaayega</li></ul></div><div class="am-sec"><div class="am-h2">📝 Apply Kaise Karein</div><ul class="am-ul"><li>pmsuryaghar.gov.in pe register karo</li><li>Apna electricity consumer number daalo</li><li>Eligible vendor select karo (portal pe listed)</li><li>Solar panel installation ke baad subsidy claim karo</li><li>30 din mein subsidy bank mein aayegi</li></ul></div><div class="am-note">⚡ Solar lagwane ke baad extra bijli grid ko bechoge toh aur paisa bhi milega!</div><div class="am-cta"><p>Abhi apply karo</p><a href="https://pmsuryaghar.gov.in" target="_blank">pmsuryaghar.gov.in →</a></div>`
+  },
+  {
+    id:'free-ration', cat:'Kisan', catClass:'cat-gr', icon:'🍚', date:'6 Apr 2025', readTime:'3 min',
+    color:'linear-gradient(135deg,#33691e,#689f38)',
+    title:'Pradhan Mantri Garib Kalyan Anna Yojana (PMGKAY) 2025 — Free Ration Kab Tak Milega',
+    desc:'PMGKAY ke through 81 crore logo ko free ration milta hai. Status, eligibility aur latest update yahan...',
+    body:`<div class="am-sec"><div class="am-h2">📋 PMGKAY Latest Update</div><div class="am-p">Pradhan Mantri Garib Kalyan Anna Yojana (PMGKAY) ke under NFSA beneficiaries ko regular ration ke upar extra free grain milta tha. January 2024 se PMGKAY ko NFSA mein merge kar diya gaya — ab normal ration hi free ho gaya hai priority households ke liye.</div></div><div class="am-sec"><div class="am-h2">✅ Ab Kya Milta Hai (NFSA 2024)</div><ul class="am-ul"><li>Priority Households (PHH): 5 kg grain per person per month — FREE</li><li>Antyodaya Anna Yojana (AAY): 35 kg per family per month — FREE</li><li>Wheat, rice aur millets — jo bhi state mein available ho</li></ul></div><div class="am-sec"><div class="am-h2">🔍 Naam Check Kaise Karein</div><ul class="am-ul"><li>nfsa.gov.in pe apna state select karo</li><li>Ration Card number ya Aadhar se check karo</li><li>Ya nearest ration dealer se poochhein</li></ul></div><div class="am-note">💡 Agar aapka naam list mein nahi hai toh District Food Office mein application do — ye aapka adhikaar hai!</div><div class="am-cta"><p>NFSA portal pe check karo</p><a href="https://nfsa.gov.in" target="_blank">nfsa.gov.in →</a></div>`
+  },
+  {
+    id:'pm-care', cat:'Health', catClass:'cat-re', icon:'🤝', date:'4 Apr 2025', readTime:'3 min',
+    color:'linear-gradient(135deg,#b71c1c,#d32f2f)',
+    title:'PM CARES Fund — Kaise Apply Karein, Kiske Liye Hai Ye Fund',
+    desc:'PM CARES Fund kya hai, koun apply kar sakta hai, aur COVID-19 ya aapda se prabhavit logon ke liye kya benefits hain...',
+    body:`<div class="am-sec"><div class="am-h2">📋 PM CARES Kya Hai</div><div class="am-p">PM CARES (Prime Minister's Citizen Assistance and Relief in Emergency Situations) Fund ek public charitable trust hai jo emergency situations mein relief ke liye use hota hai — especially COVID-19 relief ke liye banaya gaya tha March 2020 mein.</div></div><div class="am-sec"><div class="am-h2">✅ PM CARES Se Kya Milta Hai</div><ul class="am-ul"><li>COVID-19 se affected families ko support</li><li>Oxygen plants, ventilators procurement</li><li>Vaccine procurement funding</li><li>Disaster relief operations</li><li>Individual ko direct benefit nahi milta — institutions ke through hota hai</li></ul></div><div class="am-sec"><div class="am-h2">😊 Individual Help Ke Liye</div><ul class="am-ul"><li>COVID se bereaved bacchon ke liye: PM CARES for Children scheme</li><li>Orphaned children ko ₹10 lakh corpus + monthly allowance</li><li>PM Bal Seva Yojana ke through apply karo — childwelfare.gov.in</li></ul></div><div class="am-note">⚠️ Koi bhi agent jo PM CARES ke naam pe paise maange — ye fraud hai! Report karein: 1800-111-363</div><div class="am-cta"><p>Official information ke liye</p><a href="https://pmcares.gov.in" target="_blank">pmcares.gov.in →</a></div>`
+  },
+  {
+    id:'dbt', cat:'Digital', catClass:'cat-bl', icon:'💸', date:'2 Apr 2025', readTime:'3 min',
+    color:'linear-gradient(135deg,#1565c0,#1976d2)',
+    title:'DBT — Direct Benefit Transfer Kya Hai, Aapke Bank Mein Sarkari Paisa Seedha Kaise Aata Hai',
+    desc:'DBT ke through 50+ schemes ka paisa seedha aapke bank account mein aata hai. Kaise kaam karta hai, check kaise karein...',
+    body:`<div class="am-sec"><div class="am-h2">📋 DBT Kya Hai</div><div class="am-p">Direct Benefit Transfer (DBT) system ke through government schemes ka paise seedha beneficiary ke bank account ya mobile wallet mein aata hai — koi middleman nahi. Corruption aur leakage practically band ho gayi hai. 53+ crore beneficiaries isko use karte hain.</div></div><div class="am-sec"><div class="am-h2">Kaun Si Schemes DBT Use Karti Hain</div><ul class="am-ul"><li>PM Kisan Samman Nidhi — ₹6000/year</li><li>MGNREGA wages</li><li>Scholarships — sabhi</li><li>LPG subsidy</li><li>PM Awas installments</li><li>Ujjwala benefit</li><li>Maternity benefit — PMMVY</li></ul></div><div class="am-sec"><div class="am-h2">📝 DBT Activate Kaise Karein</div><ul class="am-ul"><li>Bank account Aadhar se link karwao (most important!)</li><li>Mobile number bank account se link karo</li><li>NPCI mapper pe check karo — npci.org.in</li><li>Agar link nahi hai toh bank mein jaao</li></ul></div><div class="am-note">💡 Agar scheme ka paisa nahi aa raha toh pehle check karo — Aadhar bank se linked hai ya nahi!</div><div class="am-cta"><p>DBT status check karo</p><a href="https://dbtbharat.gov.in" target="_blank">dbtbharat.gov.in →</a></div>`
+  }
+];
+
+/* ════════════════════════
+   RENDER FUNCTIONS
+════════════════════════ */
+function renderHomeArticles() {
+  const container = document.getElementById('home-articles');
+  const first6 = ARTICLES.slice(0, 6);
+  container.innerHTML = first6.map(a => articleCardHTML(a)).join('');
+}
+function renderAllArticles() {
+  const container = document.getElementById('all-articles-list');
+  container.innerHTML = ARTICLES.map(a => articleCardHTML(a)).join('');
+}
+function articleCardHTML(a) {
+  return `<div class="acard" onclick="openArt('${a.id}')">
+    <div class="ac-meta"><span class="ac-cat ${a.catClass}">${catIcon(a.cat)} ${a.cat}</span><span class="ac-date">📅 ${a.date}</span></div>
+    <div class="ac-title">${a.title}</div>
+    <div class="ac-desc">${a.desc}</div>
+    <div class="ac-foot"><span class="ac-read">Poora Padho →</span><span class="ac-time">⏱ ${a.readTime} read</span></div>
+  </div>`;
+}
+function catIcon(cat) {
+  const m = {'Awas':'🏠','Kisan':'🌾','Mahila':'👩','Health':'🏥','Rozgar':'💼','Shiksha':'📚','Pension':'👴','Digital':'📱'};
+  return m[cat]||'📋';
+}
+
+/* OPEN ARTICLE */
+function openArt(id) {
+  const a = ARTICLES.find(x => x.id === id);
+  if (!a) return;
+  document.getElementById('am-icon').textContent = a.icon;
+  document.getElementById('am-title').textContent = a.title;
+  document.getElementById('am-hdr').style.background = a.color;
+  document.getElementById('am-meta').innerHTML = `<span>📅 ${a.date}</span><span>⏱ ${a.readTime} read</span><span>📂 ${a.cat}</span>`;
+  document.getElementById('am-body').innerHTML = a.body + `<div class="am-ad">📢 Advertisement — Google AdSense ad yahan aayegi</div>`;
+  document.getElementById('art-ov').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeArt() {
+  document.getElementById('art-ov').classList.remove('open');
+  document.body.style.overflow = '';
+}
+function closeArtOv(e) { if (e.target.id === 'art-ov') closeArt(); }
+
+/* PAGES */
+const PAGES = ['home','articles','about','contact','privacy','disclaimer'];
+function showPage(p) {
+  document.getElementById('page-home').style.display = p === 'home' ? 'block' : 'none';
+  PAGES.filter(x => x !== 'home').forEach(x => {
+    const el = document.getElementById('page-' + x);
+    if (el) el.classList.toggle('show', x === p);
+  });
+  PAGES.forEach(x => {
+    const btn = document.getElementById('nl-' + x);
+    if (btn) btn.classList.toggle('on', x === p);
+  });
+  if (p === 'articles') renderAllArticles();
+  window.scrollTo(0, 0);
+}
+
+/* CATEGORY FILTER */
+function filterCat(cat) {
+  document.querySelectorAll('.cchip').forEach(c => {
+    c.classList.toggle('on', c.textContent.includes(cat === 'all' ? '🌟' : cat));
+  });
+  document.querySelectorAll('.ycard').forEach(c => {
+    c.style.display = cat === 'all' || c.dataset.cat === cat ? '' : 'none';
+  });
+}
+
+/* HERO SEARCH */
+function doHSearch() {
+  const q = document.getElementById('hsearch').value.toLowerCase().trim();
+  if (!q) return;
+  const found = ARTICLES.find(a =>
+    a.title.toLowerCase().includes(q) ||
+    a.id.includes(q) ||
+    a.cat.toLowerCase().includes(q) ||
+    a.desc.toLowerCase().includes(q)
+  );
+  if (found) openArt(found.id);
+  else {
+    showToast('🔍 Article nahi mili — "Articles" page mein sabhi dekhein');
+    setTimeout(() => showPage('articles'), 1200);
+  }
+}
+document.getElementById('hsearch').addEventListener('keydown', e => { if (e.key === 'Enter') doHSearch(); });
+
+/* CONTACT FORM */
+function submitForm() {
+  showToast('✅ Message bhej diya gaya! 24-48 ghante mein reply milega.');
+}
+
+/* TOAST */
+let toastT;
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(toastT);
+  toastT = setTimeout(() => t.classList.remove('show'), 4000);
+}
+
+/* INIT */
+renderHomeArticles();
+</script>
+</body>
+</html>
